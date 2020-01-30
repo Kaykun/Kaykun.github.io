@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>凱凱</title>
+  <title>胡嘉晨</title>
   
-  <subtitle>记录生活中的点点滴滴</subtitle>
+  <subtitle>记录</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>胡凯</name>
+    <name>胡嘉晨</name>
     
   </author>
   
