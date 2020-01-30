@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>胡凯</title>
   
-  <subtitle>记录</subtitle>
+  <subtitle>精进技术 自律生活</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-30T12:23:26.464Z</updated>
+  <updated>2020-01-30T14:00:29.054Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,11 +21,19 @@
     <link href="http://yoursite.com/2020/01/29/GitPage+Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2020/01/29/GitPage+Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-01-29T15:54:00.000Z</published>
-    <updated>2020-01-30T12:23:26.464Z</updated>
+    <updated>2020-01-30T14:00:29.054Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;1.“ 很荣幸能陪你走过这样一段路，以后你不管是大红大紫还是泯然众人，我都记得在今年的这个暮冬到初春，
+      &lt;p&gt;&lt;strong&gt;太长不读版：&lt;/strong&gt;由推荐系统带来的推荐服务基本上已经渗透到我们生活的方方面面，本文作为浅谈推荐系统的基础篇，主要从下面几个维度介绍推荐系统的相关知识：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;什么是推荐系统&lt;/li&gt;
+&lt;li&gt;推荐系统在商业中的地位&lt;/li&gt;
+&lt;li&gt;推荐系统、搜索引擎及广告的关系&lt;/li&gt;
+&lt;li&gt;推荐系统的关键元素&lt;/li&gt;
+&lt;li&gt;推荐系统相关的算法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;篇幅较长，可能大部分道友比较关心算法部分，所以重点罗列了推荐系统算法思维演进史，每类算法理论点到即止，没有提供详细细节，但给出了相关阅读资料。全篇没有一个数学公式一行代码，初学者容易理解，有一定推荐系统相关知识的道友也可以起到一个系统化认识的作用。所属内容来自近期学习笔记，所提观点纯属抛砖引玉，如有疑问，欢迎大家积极讨论以及给出高见。&lt;/p&gt;
     
     </summary>
     
