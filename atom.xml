@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>胡嘉晨</title>
+  <title>胡凯</title>
   
   <subtitle>记录</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>胡嘉晨</name>
+    <name>胡凯</name>
     
   </author>
   
