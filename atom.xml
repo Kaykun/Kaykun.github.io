@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-30T14:08:56.632Z</updated>
+  <updated>2020-01-31T04:25:58.774Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+GitPag搭建个人博客</title>
+    <link href="http://yoursite.com/2020/01/31/Hexo-GitPag%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2020/01/31/Hexo-GitPag%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-01-31T04:24:58.000Z</published>
+    <updated>2020-01-31T04:25:58.774Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一、什么是泛型？&lt;br&gt;泛型支持在定义类、接口和方法时将类型作为参数。泛型参数与方法声明中使用的形式参数非常相似，泛型参数使我们可以在不同的输入中重用相同的代码。但与形式参数不同之处在于，形式参数的输入是值，而类型参数的输入是类型。&lt;br&gt;我们可以将泛型 &amp;lt; T &amp;gt; 理解为占位符，在定义类时不清楚它会是什么类型，但是类中的代码逻辑是通用的，无论类在使用时&amp;lt; T &amp;gt;会被什么参数类型替代。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>什么是推荐系统？</title>
