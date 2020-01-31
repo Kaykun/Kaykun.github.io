@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>胡凯</title>
+  <title>萤火虫</title>
   
   <subtitle>精进技术 记录生活</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>胡凯</name>
+    <name>萤火虫</name>
     
   </author>
   
