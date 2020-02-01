@@ -13,6 +13,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
 
+<script>
+    (function(){
+        if('123456'){
+            if (prompt('请输入密码') !== '123456'){
+                alert('密码错误');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
   
@@ -94,14 +104,14 @@
 
 
 
-<meta name="description" content="太长不读版：由推荐系统带来的推荐服务基本上已经渗透到我们生活的方方面面，本文作为浅谈推荐系统的基础篇，主要从下面几个维度介绍推荐系统的相关知识：  什么是推荐系统 推荐系统在商业中的地位 推荐系统、搜索引擎及广告的关系 推荐系统的关键元素 推荐系统相关的算法  篇幅较长，可能大部分道友比较关心算法部分，所以重点罗列了推荐系统算法思维演进史，每类算法理论点到即止，没有提供详细细节，但给出了相关阅读资">
+<meta name="description" content="太长不读版：由推荐系统带来的推荐服务基本上已经渗透到我们生活的方方面面，本文作为浅谈推荐系统的基础篇，主要从下面几个维度介绍推荐系统的相关知识：  什么是推荐系统 推荐系统在商业中的地位 推荐系统、搜索引擎及广告的关系 推荐系统的关键元素 推荐系统相关的算法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="什么是推荐系统？">
 <meta property="og:url" content="http://yoursite.com/2020/01/29/GitPage+Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="萤火虫">
-<meta property="og:description" content="太长不读版：由推荐系统带来的推荐服务基本上已经渗透到我们生活的方方面面，本文作为浅谈推荐系统的基础篇，主要从下面几个维度介绍推荐系统的相关知识：  什么是推荐系统 推荐系统在商业中的地位 推荐系统、搜索引擎及广告的关系 推荐系统的关键元素 推荐系统相关的算法  篇幅较长，可能大部分道友比较关心算法部分，所以重点罗列了推荐系统算法思维演进史，每类算法理论点到即止，没有提供详细细节，但给出了相关阅读资">
+<meta property="og:description" content="太长不读版：由推荐系统带来的推荐服务基本上已经渗透到我们生活的方方面面，本文作为浅谈推荐系统的基础篇，主要从下面几个维度介绍推荐系统的相关知识：  什么是推荐系统 推荐系统在商业中的地位 推荐系统、搜索引擎及广告的关系 推荐系统的关键元素 推荐系统相关的算法">
 <meta property="article:published_time" content="2020-01-29T15:54:00.000Z">
-<meta property="article:modified_time" content="2020-01-30T14:08:56.632Z">
+<meta property="article:modified_time" content="2020-02-01T12:50:29.850Z">
 <meta property="article:author" content="萤火虫">
 <meta property="article:tag" content="系统">
 <meta name="twitter:card" content="summary">
@@ -131,6 +141,9 @@
     }
   };
 </script>
+
+
+
 
 
 
@@ -398,8 +411,8 @@ daovoice('update');
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-01-30T22:08:56+08:00">
-                2020-01-30
+              <time title="更新于" itemprop="dateModified" datetime="2020-02-01T20:50:29+08:00">
+                2020-02-01
               </time>
             
           </span>
@@ -508,9 +521,9 @@ daovoice('update');
 <li>推荐系统的关键元素</li>
 <li>推荐系统相关的算法</li>
 </ul>
-<p>篇幅较长，可能大部分道友比较关心算法部分，所以重点罗列了推荐系统算法思维演进史，每类算法理论点到即止，没有提供详细细节，但给出了相关阅读资料。全篇没有一个数学公式一行代码，初学者容易理解，有一定推荐系统相关知识的道友也可以起到一个系统化认识的作用。所属内容来自近期学习笔记，所提观点纯属抛砖引玉，如有疑问，欢迎大家积极讨论以及给出高见。</p>
 <a id="more"></a>
 
+<p>篇幅较长，可能大部分道友比较关心算法部分，所以重点罗列了推荐系统算法思维演进史，每类算法理论点到即止，没有提供详细细节，但给出了相关阅读资料。全篇没有一个数学公式一行代码，初学者容易理解，有一定推荐系统相关知识的道友也可以起到一个系统化认识的作用。所属内容来自近期学习笔记，所提观点纯属抛砖引玉，如有疑问，欢迎大家积极讨论以及给出高见。</p>
 <h2 id="什么是推荐系统"><a href="#什么是推荐系统" class="headerlink" title="什么是推荐系统"></a>什么是推荐系统</h2><p>按照维基百科的定义：推荐系统是一种信息过滤系统，用于预测用户对物品的评分或偏好。这个定义不是很好理解，因为它用“怎么做”来定义“是什么”，我们可以换个角度来理解：</p>
 <ol>
 <li>它能做什么？</li>
