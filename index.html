@@ -6,7 +6,7 @@
   
 
 
-<html class="theme-next gemini use-motion" lang="zh-Hans">
+<html class="theme-next pisces use-motion" lang="zh-CN">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -68,6 +68,44 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="https://fonts.loli.net/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
 
 
 
@@ -110,6 +148,7 @@
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="萤火虫">
 <meta property="og:description" content="人生永远有告别，但我们永远有期待。">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="萤火虫">
 <meta name="twitter:card" content="summary">
 
@@ -119,7 +158,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Gemini',
+    scheme: 'Pisces',
     version: '5.1.4',
     sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
@@ -127,7 +166,7 @@
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: '博主'
+      author: 'Author'
     },
     algolia: {
       applicationID: '',
@@ -184,7 +223,7 @@ daovoice('update');
   <script src="/js/src/photoswipe-ui-default.min.js?v=5.1.4"></script>
 <meta name="generator" content="Hexo 4.2.0"></head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
@@ -233,7 +272,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            首页
+            Home
           </a>
         </li>
       
@@ -243,7 +282,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            关于
+            About
           </a>
         </li>
       
@@ -253,7 +292,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            标签
+            Tags
           </a>
         </li>
       
@@ -263,7 +302,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            分类
+            Categories
           </a>
         </li>
       
@@ -273,7 +312,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            归档
+            Archives
           </a>
         </li>
       
@@ -288,12 +327,22 @@ daovoice('update');
         </li>
       
         
+        <li class="menu-item menu-item-books">
+          <a href="/books" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            books
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-commonweal">
           <a href="/404/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
             
-            公益404
+            Commonweal 404
           </a>
         </li>
       
@@ -306,7 +355,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
             
-            搜索
+            Search
           </a>
         </li>
       
@@ -326,7 +375,7 @@ daovoice('update');
     </span>
     <div class="local-search-input-wrapper">
       <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
+             placeholder="Searching..." spellcheck="false"
              type="text" id="local-search-input">
     </div>
   </div>
@@ -393,9 +442,9 @@ daovoice('update');
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Posted on</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-31T12:24:58+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-01-31T12:24:58+08:00">
                 2020-01-31
               </time>
             
@@ -409,9 +458,9 @@ daovoice('update');
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于&#58;</span>
+                <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-02-01T18:45:21+08:00">
+              <time title="Post modified" itemprop="dateModified" datetime="2020-02-01T18:45:21+08:00">
                 2020-02-01
               </time>
             
@@ -446,10 +495,10 @@ daovoice('update');
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
                 
-                <span title="字数统计">
-                  192
+                <span title="Words count in article">
+                  244
                 </span>
               
 
@@ -462,9 +511,9 @@ daovoice('update');
                   <i class="fa fa-clock-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
                 
-                <span title="阅读时长">
+                <span title="Reading time">
                   1
                 </span>
               
@@ -492,7 +541,7 @@ daovoice('update');
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2020/01/31/Hexo-GitPag%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#more" rel="contents">
-              阅读全文 &raquo;
+              Read more &raquo;
             </a>
           </div>
           <!--/noindex-->
@@ -508,6 +557,10 @@ daovoice('update');
     
 
     
+
+    + <div>
+    +  
+    + </div>
 
     <footer class="post-footer">
       
@@ -571,9 +624,9 @@ daovoice('update');
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Posted on</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-29T23:54:00+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-01-29T23:54:00+08:00">
                 2020-01-29
               </time>
             
@@ -587,9 +640,9 @@ daovoice('update');
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于&#58;</span>
+                <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-02-01T20:50:29+08:00">
+              <time title="Post modified" itemprop="dateModified" datetime="2020-02-01T20:50:29+08:00">
                 2020-02-01
               </time>
             
@@ -604,7 +657,7 @@ daovoice('update');
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">分类于</span>
+                <span class="post-meta-item-text">In</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
@@ -646,9 +699,9 @@ daovoice('update');
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
                 
-                <span title="字数统计">
+                <span title="Words count in article">
                   11.6k
                 </span>
               
@@ -662,10 +715,10 @@ daovoice('update');
                   <i class="fa fa-clock-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
                 
-                <span title="阅读时长">
-                  39
+                <span title="Reading time">
+                  40
                 </span>
               
             </div>
@@ -698,7 +751,7 @@ daovoice('update');
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2020/01/29/GitPage+Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#more" rel="contents">
-              阅读全文 &raquo;
+              Read more &raquo;
             </a>
           </div>
           <!--/noindex-->
@@ -714,6 +767,10 @@ daovoice('update');
     
 
     
+
+    + <div>
+    +  
+    + </div>
 
     <footer class="post-footer">
       
@@ -788,7 +845,7 @@ daovoice('update');
                 <a href="/archives/%7C%7C%20archive">
               
                   <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">日志</span>
+                  <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
@@ -799,7 +856,7 @@ daovoice('update');
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">分类</span>
+                  <span class="site-state-item-name">categories</span>
                 </a>
               </div>
             
@@ -810,7 +867,7 @@ daovoice('update');
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">标签</span>
+                  <span class="site-state-item-name">tags</span>
                 </a>
               </div>
             
@@ -862,7 +919,8 @@ daovoice('update');
           
           
 
-          <div id="music163player"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=52 src="//music.163.com/outchain/player?type=2&id=564663565&auto=1&height=32"></iframe></div>
+          
+
 
         </div>
       </section>
@@ -895,24 +953,18 @@ daovoice('update');
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">11.8k</span>
+    <span title="Site words total count">11.9k</span>
   
 </div>
 
 
 <!--
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
 
 
-  <span class="post-meta-divider">|</span>
 
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 -->
@@ -923,17 +975,17 @@ daovoice('update');
 
   
     <span class="site-uv">
-      <i class="fa fa-user"></i>
+      <i class="fa fa-user">你是来访的第</i>
       <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-      
+      位小伙伴
     </span>
   
 
   
     <span class="site-pv">
-      <i class="fa fa-eye"></i>
+      <i class="fa fa-eye">访问次数</i>
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-      
+      次
     </span>
   
 </div>
@@ -1116,7 +1168,7 @@ daovoice('update');
         appId: 'qRPmc24AugBe5TAiYmgjkcKy-gzGzoHsz',
         appKey: '4f7is7Rj3iQYGjzyJ1D9WhGU',
         placeholder: '欢迎交流讨论...',
-        avatar:'mm',
+        avatar:'monsterid',
         guest_info:guest,
         pageSize:'10' || 10,
     });

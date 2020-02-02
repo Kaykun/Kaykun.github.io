@@ -6,7 +6,7 @@
   
 
 
-<html class="theme-next gemini use-motion" lang="zh-Hans">
+<html class="theme-next pisces use-motion" lang="zh-CN">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -68,6 +68,44 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="https://fonts.loli.net/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
 
 
 
@@ -110,6 +148,7 @@
 <meta property="og:url" content="http://yoursite.com/2020/01/29/GitPage+Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="萤火虫">
 <meta property="og:description" content="太长不读版：由推荐系统带来的推荐服务基本上已经渗透到我们生活的方方面面，本文作为浅谈推荐系统的基础篇，主要从下面几个维度介绍推荐系统的相关知识：  什么是推荐系统 推荐系统在商业中的地位 推荐系统、搜索引擎及广告的关系 推荐系统的关键元素 推荐系统相关的算法">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-01-29T15:54:00.000Z">
 <meta property="article:modified_time" content="2020-02-01T12:50:29.850Z">
 <meta property="article:author" content="萤火虫">
@@ -122,7 +161,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Gemini',
+    scheme: 'Pisces',
     version: '5.1.4',
     sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
@@ -130,7 +169,7 @@
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: '博主'
+      author: 'Author'
     },
     algolia: {
       applicationID: '',
@@ -187,7 +226,7 @@ daovoice('update');
   <script src="/js/src/photoswipe-ui-default.min.js?v=5.1.4"></script>
 <meta name="generator" content="Hexo 4.2.0"></head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
@@ -235,7 +274,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            首页
+            Home
           </a>
         </li>
       
@@ -245,7 +284,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            关于
+            About
           </a>
         </li>
       
@@ -255,7 +294,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            标签
+            Tags
           </a>
         </li>
       
@@ -265,7 +304,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            分类
+            Categories
           </a>
         </li>
       
@@ -275,7 +314,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            归档
+            Archives
           </a>
         </li>
       
@@ -290,12 +329,22 @@ daovoice('update');
         </li>
       
         
+        <li class="menu-item menu-item-books">
+          <a href="/books" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            books
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-commonweal">
           <a href="/404/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
             
-            公益404
+            Commonweal 404
           </a>
         </li>
       
@@ -308,7 +357,7 @@ daovoice('update');
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
             
-            搜索
+            Search
           </a>
         </li>
       
@@ -328,7 +377,7 @@ daovoice('update');
     </span>
     <div class="local-search-input-wrapper">
       <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
+             placeholder="Searching..." spellcheck="false"
              type="text" id="local-search-input">
     </div>
   </div>
@@ -393,9 +442,9 @@ daovoice('update');
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Posted on</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-29T23:54:00+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-01-29T23:54:00+08:00">
                 2020-01-29
               </time>
             
@@ -409,9 +458,9 @@ daovoice('update');
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于&#58;</span>
+                <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-02-01T20:50:29+08:00">
+              <time title="Post modified" itemprop="dateModified" datetime="2020-02-01T20:50:29+08:00">
                 2020-02-01
               </time>
             
@@ -426,7 +475,7 @@ daovoice('update');
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">分类于</span>
+                <span class="post-meta-item-text">In</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
@@ -473,9 +522,9 @@ daovoice('update');
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">字数统计&#58;</span>
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
                 
-                <span title="字数统计">
+                <span title="Words count in article">
                   11.6k
                 </span>
               
@@ -489,10 +538,10 @@ daovoice('update');
                   <i class="fa fa-clock-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
                 
-                <span title="阅读时长">
-                  39
+                <span title="Reading time">
+                  40
                 </span>
               
             </div>
@@ -720,7 +769,25 @@ daovoice('update');
 </ul>
 </li>
 </ul>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
       
     </div>
     
@@ -742,21 +809,21 @@ daovoice('update');
         <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
   <div>觉得文章对您有帮助请我喝杯咖啡吧^_^</div>
   <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>打赏</span>
+    <span>Donate</span>
   </button>
   <div id="QR" style="display: none;">
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/uploads/wechatpay.jpg" alt="萤火虫 微信支付"/>
-        <p>微信支付</p>
+        <img id="wechat_qr" src="/uploads/wechatpay.jpg" alt="萤火虫 WeChat Pay"/>
+        <p>WeChat Pay</p>
       </div>
     
 
     
       <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/uploads/alipay.jpg" alt="萤火虫 支付宝"/>
-        <p>支付宝</p>
+        <img id="alipay_qr" src="/uploads/alipay.jpg" alt="萤火虫 Alipay"/>
+        <p>Alipay</p>
       </div>
     
 
@@ -772,21 +839,32 @@ daovoice('update');
       <div>
         <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>本文作者：</strong>
+    <strong>Post author:</strong>
     萤火虫
   </li>
   <li class="post-copyright-link">
-    <strong>本文链接：</strong>
+    <strong>Post link:</strong>
     <a href="http://yoursite.com/2020/01/29/GitPage+Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" title="什么是推荐系统？">http://yoursite.com/2020/01/29/GitPage+Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</a>
   </li>
   <li class="post-copyright-license">
-    <strong>版权声明： </strong>
-    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
   </li>
 </ul>
 
       </div>
     
+
+    + <div>
+    +  
+    +    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------　　　　本文结束　<i class="fa fa-heart"></i>　感谢您的阅读　　　　-------------</div>
+    
+</div>
+
+    +  
+    + </div>
 
     <footer class="post-footer">
       
@@ -800,6 +878,10 @@ daovoice('update');
       
       
         <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div id="wpac-rating"></div>
+          </div>
         
 
         
@@ -888,10 +970,10 @@ daovoice('update');
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
+            Overview
           </li>
         </ul>
       
@@ -916,7 +998,7 @@ daovoice('update');
                 <a href="/archives/%7C%7C%20archive">
               
                   <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">日志</span>
+                  <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
@@ -927,7 +1009,7 @@ daovoice('update');
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">分类</span>
+                  <span class="site-state-item-name">categories</span>
                 </a>
               </div>
             
@@ -938,7 +1020,7 @@ daovoice('update');
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">标签</span>
+                  <span class="site-state-item-name">tags</span>
                 </a>
               </div>
             
@@ -990,7 +1072,8 @@ daovoice('update');
           
           
 
-          <div id="music163player"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=52 src="//music.163.com/outchain/player?type=2&id=564663565&auto=1&height=32"></iframe></div>
+          
+
 
         </div>
       </section>
@@ -1039,24 +1122,18 @@ daovoice('update');
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">11.8k</span>
+    <span title="Site words total count">11.9k</span>
   
 </div>
 
 
 <!--
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
 
 
-  <span class="post-meta-divider">|</span>
 
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 -->
@@ -1067,17 +1144,17 @@ daovoice('update');
 
   
     <span class="site-uv">
-      <i class="fa fa-user"></i>
+      <i class="fa fa-user">你是来访的第</i>
       <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-      
+      位小伙伴
     </span>
   
 
   
     <span class="site-pv">
-      <i class="fa fa-eye"></i>
+      <i class="fa fa-eye">访问次数</i>
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-      
+      次
     </span>
   
 </div>
@@ -1266,7 +1343,7 @@ daovoice('update');
         appId: 'qRPmc24AugBe5TAiYmgjkcKy-gzGzoHsz',
         appKey: '4f7is7Rj3iQYGjzyJ1D9WhGU',
         placeholder: '欢迎交流讨论...',
-        avatar:'mm',
+        avatar:'monsterid',
         guest_info:guest,
         pageSize:'10' || 10,
     });
@@ -1642,6 +1719,23 @@ daovoice('update');
   </script>
 
   
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: ,
+    el: 'wpac-rating',
+    color: 'fc6423'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
 
   
 
