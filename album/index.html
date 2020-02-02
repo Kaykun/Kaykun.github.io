@@ -60,10 +60,6 @@
 
 
 
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
 
 
 
@@ -142,14 +138,14 @@
 
 
 
-<meta name="description" content="document.querySelectorAll(&#39;.github-emoji&#39;)           .forEach(el &#x3D;&gt; {             if (!el.dataset.src) { return; }             const img &#x3D; document.createElement(&#39;img&#39;);             img.style">
+<meta name="description" content="function loadXMLDoc(xmlUrl){    try &#x2F;&#x2F;Internet Explorer    {        xmlDoc&#x3D;new ActiveXObject(“Microsoft.XMLDOM”);    }    catch(e)    {      try &#x2F;&#x2F;Firefox, Mozilla, Opera, etc.        {          xm">
 <meta property="og:type" content="website">
-<meta property="og:title" content="photo">
-<meta property="og:url" content="http://yoursite.com/photo/index.html">
+<meta property="og:title" content="光影流年">
+<meta property="og:url" content="http://yoursite.com/album/index.html">
 <meta property="og:site_name" content="萤火虫">
-<meta property="og:description" content="document.querySelectorAll(&#39;.github-emoji&#39;)           .forEach(el &#x3D;&gt; {             if (!el.dataset.src) { return; }             const img &#x3D; document.createElement(&#39;img&#39;);             img.style">
-<meta property="article:published_time" content="2020-01-30T09:13:18.000Z">
-<meta property="article:modified_time" content="2020-01-30T09:13:18.690Z">
+<meta property="og:description" content="function loadXMLDoc(xmlUrl){    try &#x2F;&#x2F;Internet Explorer    {        xmlDoc&#x3D;new ActiveXObject(“Microsoft.XMLDOM”);    }    catch(e)    {      try &#x2F;&#x2F;Firefox, Mozilla, Opera, etc.        {          xm">
+<meta property="article:published_time" content="2019-04-01T11:10:05.000Z">
+<meta property="article:modified_time" content="2020-02-02T10:46:09.362Z">
 <meta property="article:author" content="萤火虫">
 <meta name="twitter:card" content="summary">
 
@@ -162,7 +158,7 @@
     scheme: 'Pisces',
     version: '5.1.4',
     sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
-    fancybox: true,
+    fancybox: false,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
@@ -184,7 +180,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/photo/"/>
+  <link rel="canonical" href="http://yoursite.com/album/"/>
 
 
 
@@ -200,7 +196,7 @@ daovoice('update');
 
 
 
-  <title>photo | 萤火虫</title>
+  <title>光影流年 | 萤火虫</title>
   
 
 
@@ -317,8 +313,8 @@ daovoice('update');
         </li>
       
         
-        <li class="menu-item menu-item-photos">
-          <a href="/photos" rel="section">
+        <li class="menu-item menu-item-album">
+          <a href="/album" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-camera"></i> <br />
             
@@ -406,7 +402,7 @@ daovoice('update');
     <div class="post-block page">
       <header class="post-header">
 
-	<h2 class="post-title" itemprop="name headline">photo</h2>
+	<h2 class="post-title" itemprop="name headline">光影流年</h2>
 
 
 
@@ -418,7 +414,57 @@ daovoice('update');
       <div class="post-body">
         
         
-          <script>
+          <div id="box" class="box"></div>
+<script type="text/javascript">
+
+<p>function loadXMLDoc(xmlUrl)<br>{<br>    try //Internet Explorer<br>    {<br>        xmlDoc=new ActiveXObject(“Microsoft.XMLDOM”);<br>    }<br>    catch(e)<br>    {<br>      try //Firefox, Mozilla, Opera, etc.<br>        {<br>          xmlDoc=document.implementation.createDocument(“”,””,null);<br>        }<br>      catch(e) {alert(e.message)}<br>    }</p>
+<pre><code>try 
+{
+      xmlDoc.async=false;
+      xmlDoc.load(xmlUrl);
+}
+catch(e) {
+    try //Google Chrome  
+      {  
+        var chromeXml = new XMLHttpRequest();
+        chromeXml.open(&quot;GET&quot;, xmlUrl, false);
+        chromeXml.send(null);
+        xmlDoc = chromeXml.responseXML.documentElement;                 
+        //alert(xmlDoc.childNodes[0].nodeName);
+        //return xmlDoc;    
+      }  
+      catch(e)  
+      {  
+          alert(e.message)  
+      }                
+}
+return xmlDoc; </code></pre><p>}</p>
+<p>xmlDoc=loadXMLDoc(“<a href="https://album-1300143340.cos.ap-chengdu.myqcloud.com&quot;" target="_blank" rel="noopener">https://album-1300143340.cos.ap-chengdu.myqcloud.com&quot;</a>);</p>
+<p>var urls = xmlDoc.getElementsByTagName(‘Key’);<br>var date = xmlDoc.getElementsByTagName(‘LastModified’);<br>var wid = 350;<br>var showNum = 21; //每个相册一次展示多少照片<br>if ((window.innerWidth) &gt; 1200) { wid = (window.innerWidth * 3) / 18;}<br>var box = document.getElementById(‘box’);<br>var i = 0;</p>
+<p>var content = new Array();<br>var tmp=0;<br>var kkk=-1;<br>for (var t = 0; t &lt; urls.length ; t++) {<br>    var bucket=urls[t].innerHTML;<br>    var length=bucket.indexOf(‘/‘);<br>    if(length===bucket.length-1){<br>        kkk++;<br>        content[kkk]=new Array();<br>        content[kkk][0]={‘url’:bucket,’date’:date[t].innerHTML.substring(0,10)};<br>        tmp=1;<br>    }<br>    else {<br>        content[kkk][tmp++]={‘url’:bucket.substring(length+1),’date’:date[t].innerHTML.substring(0,10)};<br>    }<br>}</p>
+<p>for (var i = 0; i &lt; content.length; i++) {<br>    var conBox=document.createElement(“div”);<br>    conBox.id=’conBox’+i;<br>    box.appendChild(conBox);<br>    var item=document.createElement(“div”);<br>    var title=content[i][0].url;<br>    item.innerHTML=”&lt;button class=title style=background:url(<a href="https://hexo-blog-1258928558.cos.ap-guangzhou.myqcloud.com/&quot;" target="_blank" rel="noopener">https://hexo-blog-1258928558.cos.ap-guangzhou.myqcloud.com/&quot;</a> + title + “封面.jpg”+”);background-repeat:no-repeat;&gt;<span style=display:inline;><strong style=color:#f0f3f6; >“ + title.substring(0,title.length - 1) + “</strong></span></button>“;<br>    conBox.appendChild(item);</p>
+<pre><code>    for (var j = 1; j &lt; content[i].length &amp;&amp; j &lt; showNum+1; j++) {
+        var con=content[i][j].url;
+    var item=document.createElement(&quot;li&quot;);
+    if(con.substring(0,con.length-4)!= &quot;封面&quot;){
+        item.innerHTML=&quot;&lt;div class=imgbox id=imgbox style=height:&quot;+wid+&quot;px;&gt;&lt;img class=imgitem src=https://hexo-blog-1258928558.cos.ap-guangzhou.myqcloud.com/&quot; + title + con +&quot; alt=&quot; + con + &quot;&gt;&lt;/div&gt;&lt;span&gt;&quot; + con.substring(0,con.length-4);
+        conBox.appendChild(item);
+    }
+}
+if(content[i].length &gt; showNum){
+    var moreItem=document.createElement(&quot;button&quot;);
+    moreItem.className = &quot;btn-more-posts&quot;;
+    moreItem.id = &quot;more&quot; + i;
+    moreItem.value = showNum + 1;
+    let cur = i;
+    moreItem.onclick = function (){
+        moreClick(this,cur,content[cur],content[cur][0].url);
+    }
+    moreItem.innerHTML=&quot;&lt;span style=display:inline;&gt;&lt;strong style=color:#f0f3f6;&gt;加载更多&lt;/strong&gt;&lt;/span&gt;&quot;;
+    conBox.appendChild(moreItem);
+}</code></pre><p>}</p>
+<p>function moreClick(obj,cur,cont,title){<br>    var parent = obj.parentNode;<br>    parent.removeChild(obj);<br>    var j=obj.value;<br>    var begin=j;<br>    for ( ; j &lt; cont.length &amp;&amp; j &lt; Number(showNum) + Number(begin); j++) {<br>        var con=cont[j].url;<br>        var item=document.createElement(“li”);<br>        item.innerHTML=”&lt;div class=imgbox id=imgbox style=height:”+wid+”px;&gt;&lt;img class=imgitem src=<a href="https://hexo-blog-1258928558.cos.ap-guangzhou.myqcloud.com/&quot;+title+con+&quot;" target="_blank" rel="noopener">https://hexo-blog-1258928558.cos.ap-guangzhou.myqcloud.com/&quot;+title+con+&quot;</a> alt=”+con+”&gt;</div><span>“+con.substring(0,con.length-4);<br>        parent.appendChild(item);<br>        var v=item.getElementsByTagName(‘img’);<br>        v[0].id=imgid;<br>        imgid++;<br>    }<br>    if(cont.length &gt; j){<br>        obj.value=j;<br>        parent.appendChild(obj);<br>    }<br>}<br></script><p></p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -696,8 +742,6 @@ daovoice('update');
 
 
 
-  
-
 
 
 
@@ -735,11 +779,6 @@ daovoice('update');
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
   
@@ -1218,6 +1257,46 @@ daovoice('update');
   
 
 
+  
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+          <div class="pswp__container">
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+          </div>
+          <div class="pswp__ui pswp__ui--hidden">
+              <div class="pswp__top-bar">
+                  <div class="pswp__counter"></div>
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                  <button class="pswp__button pswp__button--share" title="Share"></button>
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                  <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                  <!-- element will get class pswp__preloader--active when preloader is running -->
+                  <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                          <div class="pswp__preloader__donut"></div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div>
+              </div>
+              <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+              </button>
+              <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+              </button>
+              <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+              </div>
+          </div>
+      </div>
+    </div>
   
 
 
