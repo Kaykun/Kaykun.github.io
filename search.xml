@@ -27,6 +27,12 @@
             document.body.appendChild(img);
           });
       </script>]]></content>
+      <categories>
+        <category>Next美化</category>
+      </categories>
+      <tags>
+        <tag>Hexo美化</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hexo+GitPag搭建个人博客</title>
@@ -55,6 +61,12 @@
             document.body.appendChild(img);
           });
       </script>]]></content>
+      <categories>
+        <category>Next</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>什么是推荐系统？</title>
