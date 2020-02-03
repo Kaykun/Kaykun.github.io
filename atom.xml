@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-03T05:22:54.132Z</updated>
+  <updated>2020-02-03T05:22:54.127Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hexo主题</title>
-    <link href="http://yoursite.com/2020/02/03/Hexo%E4%B8%BB%E9%A2%98/"/>
-    <id>http://yoursite.com/2020/02/03/Hexo%E4%B8%BB%E9%A2%98/</id>
-    <published>2020-02-03T03:20:11.000Z</published>
-    <updated>2020-02-03T05:22:54.132Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;原文链接: Alliot’s blog&lt;br&gt;　　hexo是一个“快速、简洁且高效的博客框架”。其最大的特点是在本地直接生成静态文件，将静态文件上传到服务器端，这样服务器端只有静态的文件，给网站的SEO优化带来了极大的便利，同时，网站的安全性也有了很大的提高，由于静态的网页对环境要求非常小，在流量较小的情况下，甚至可以不需要独立的服务器而直接丢于GitHub或虚拟主机上，对个人博主来说，能够有效的节省服务器开支；markdown的支持让写作更加方便快捷；同时，hexo拥有强大的插件系统与优质的主题（Alliot就是因为NexT这个主题才知道的hexo），高度可定制。官网：hexo.io&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Next美化" scheme="http://yoursite.com/categories/Next%E7%BE%8E%E5%8C%96/"/>
-    
-    
-      <category term="Hexo美化" scheme="http://yoursite.com/tags/Hexo%E7%BE%8E%E5%8C%96/"/>
-    
-  </entry>
   
   <entry>
     <title>Hexo+GitPag搭建个人博客</title>
