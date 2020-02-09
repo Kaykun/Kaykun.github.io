@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-09T08:43:26.030Z</updated>
+  <updated>2020-02-09T10:37:11.931Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,26 +18,24 @@
   
   <entry>
     <title>代码神器：拒绝重复编码，这款IDEA插件了解一下</title>
-    <link href="http://yoursite.com/2020/02/09/%E4%BB%A3%E7%A0%81%E7%A5%9E%E5%99%A8%EF%BC%9A%E6%8B%92%E7%BB%9D%E9%87%8D%E5%A4%8D%E7%BC%96%E7%A0%81%EF%BC%8C%E8%BF%99%E6%AC%BEIDEA%E6%8F%92%E4%BB%B6%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/"/>
-    <id>http://yoursite.com/2020/02/09/%E4%BB%A3%E7%A0%81%E7%A5%9E%E5%99%A8%EF%BC%9A%E6%8B%92%E7%BB%9D%E9%87%8D%E5%A4%8D%E7%BC%96%E7%A0%81%EF%BC%8C%E8%BF%99%E6%AC%BEIDEA%E6%8F%92%E4%BB%B6%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/</id>
-    <published>2020-02-09T07:17:29.857Z</published>
-    <updated>2020-02-09T08:43:26.030Z</updated>
+    <link href="http://yoursite.com/2020/02/09/easycode/"/>
+    <id>http://yoursite.com/2020/02/09/easycode/</id>
+    <published>2020-02-09T10:28:23.000Z</published>
+    <updated>2020-02-09T10:37:11.931Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;代码神器：拒绝重复编码，这款IDEA插件了解一下&lt;/p&gt;
-&lt;p&gt;Easycode是idea的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;
-&lt;p&gt;1、安装（Easy
-        
-      
+      &lt;p&gt;Easycode是idea的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;
+&lt;p&gt;1、安装（Easy Code）&lt;/p&gt;
+&lt;p&gt;![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Easy Code.jpg)&lt;/p&gt;
     
     </summary>
     
     
+      <category term="Easycode" scheme="http://yoursite.com/categories/Easycode/"/>
+    
+    
+      <category term="Mysql" scheme="http://yoursite.com/tags/Mysql/"/>
     
   </entry>
   
