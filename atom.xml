@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-09T10:37:11.931Z</updated>
+  <updated>2020-02-09T10:40:59.328Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,13 +21,12 @@
     <link href="http://yoursite.com/2020/02/09/easycode/"/>
     <id>http://yoursite.com/2020/02/09/easycode/</id>
     <published>2020-02-09T10:28:23.000Z</published>
-    <updated>2020-02-09T10:37:11.931Z</updated>
+    <updated>2020-02-09T10:40:59.328Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;Easycode是idea的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;
-&lt;p&gt;1、安装（Easy Code）&lt;/p&gt;
-&lt;p&gt;![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Easy Code.jpg)&lt;/p&gt;
+&lt;p&gt;![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Mysql.png)&lt;/p&gt;
     
     </summary>
     

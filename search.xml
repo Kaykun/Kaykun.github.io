@@ -4,10 +4,12 @@
     <title>代码神器：拒绝重复编码，这款IDEA插件了解一下</title>
     <url>/2020/02/09/easycode/</url>
     <content><![CDATA[<p>Easycode是idea的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。</p>
+<p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Mysql.png)</p>
+<a id="more"></a>
+
 <p>1、安装（Easy Code）</p>
 <p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Easy Code.jpg)</p>
-<a id="more"></a>待装好之后，推荐大家可以安装一个插件，叫做Lombok。
-
+<p>待装好之后，推荐大家可以安装一个插件，叫做Lombok。</p>
 <p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Lombok.png)</p>
 <p>Lombok能通过注解的方式，在编译时自动为属性生成构造器、getter/setter、equals、hashcode、toString方法。出现的神奇就是在源码中没有getter和setter方法，但是在编译生成的字节码文件中有getter和setter方法。</p>
 <p>2、建立数据库</p>
