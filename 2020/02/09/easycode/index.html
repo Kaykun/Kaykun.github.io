@@ -142,17 +142,31 @@
 
 
 
-<meta name="description" content="Easycode是idea的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。 ![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Mysql.png)">
+<meta name="description" content="Easycode是IDEA的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。 1、安装（Easy Code)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="代码神器：拒绝重复编码，这款IDEA插件了解一下">
 <meta property="og:url" content="http://yoursite.com/2020/02/09/easycode/index.html">
 <meta property="og:site_name" content="萤火虫">
-<meta property="og:description" content="Easycode是idea的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。 ![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Mysql.png)">
+<meta property="og:description" content="Easycode是IDEA的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。 1、安装（Easy Code)">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Easy_Code.jpg">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Lombok.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Mysql.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Database.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Localhost.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/CMD.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Time_zone.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Test_Con.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Code.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Generate_Code.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Coding.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Mapper.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/09/easycode/Springboot.png">
 <meta property="article:published_time" content="2020-02-09T10:28:23.000Z">
-<meta property="article:modified_time" content="2020-02-09T10:40:59.328Z">
+<meta property="article:modified_time" content="2020-02-09T13:36:42.861Z">
 <meta property="article:author" content="萤火虫">
 <meta property="article:tag" content="Mysql">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/2020/02/09/easycode/Easy_Code.jpg">
 
 
 
@@ -449,7 +463,7 @@ daovoice('update');
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-02-09T18:40:59+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-02-09T21:36:42+08:00">
                 2020-02-09
               </time>
             
@@ -514,7 +528,7 @@ daovoice('update');
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  783
+                  1.1k
                 </span>
               
 
@@ -530,7 +544,7 @@ daovoice('update');
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3
+                  4
                 </span>
               
             </div>
@@ -551,42 +565,66 @@ daovoice('update');
       
 
       
-        <p>Easycode是idea的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。</p>
-<p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Mysql.png)</p>
+        <p>Easycode是IDEA的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。</p>
+<h2 id="1、安装（Easy-Code"><a href="#1、安装（Easy-Code" class="headerlink" title="1、安装（Easy Code)"></a>1、安装（Easy Code)</h2><img src="/2020/02/09/easycode/Easy_Code.jpg" class title="Install Easy_Code">
+
 <a id="more"></a>
 
-<p>1、安装（Easy Code）</p>
-<p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Easy Code.jpg)</p>
 <p>待装好之后，推荐大家可以安装一个插件，叫做Lombok。</p>
-<p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Lombok.png)</p>
-<p>Lombok能通过注解的方式，在编译时自动为属性生成构造器、getter/setter、equals、hashcode、toString方法。出现的神奇就是在源码中没有getter和setter方法，但是在编译生成的字节码文件中有getter和setter方法。</p>
-<p>2、建立数据库</p>
-<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">-- ----------------------------</span><br><span class="line">-- Table structure for user</span><br><span class="line">-- ----------------------------</span><br><span class="line">DROP TABLE IF EXISTS `user`;</span><br><span class="line">CREATE TABLE `user` (</span><br><span class="line">  `id` int(11) NOT NULL,</span><br><span class="line">  `username` varchar(20) DEFAULT NULL,</span><br><span class="line">  `sex` varchar(6) DEFAULT NULL,</span><br><span class="line">  `birthday` date DEFAULT NULL,</span><br><span class="line">  `address` varchar(20) DEFAULT NULL,</span><br><span class="line">  `password` varchar(20) DEFAULT NULL,</span><br><span class="line">  PRIMARY KEY (`id`)</span><br><span class="line">) ENGINE=InnoDB DEFAULT CHARSET=utf8;</span><br><span class="line">SET FOREIGN_KEY_CHECKS = 1;</span><br></pre></td></tr></tbody></table></figure>
+<img src="/2020/02/09/easycode/Lombok.png" class title="Install Lombook">
 
-<p>![](D:\Program Files\Hexo-cli\Hexo\source\photos\Mysql.png)</p>
-<p>3、在IDEA配置连接数据库</p>
-<p>在这之前，新建一个Springboot项目，这个应该是比较简单的。</p>
+<p>Lombok能通过注解的方式，在编译时自动为属性生成构造器、getter/setter、equals、hashcode、toString方法。出现的神奇就是在源码中没有getter和setter方法，但是在编译生成的字节码文件中有getter和setter方法。</p>
+<h2 id="2、建立数据库"><a href="#2、建立数据库" class="headerlink" title="2、建立数据库"></a>2、建立数据库</h2><figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">-- ----------------------------</span><br><span class="line">-- Table structure for user</span><br><span class="line">-- ----------------------------</span><br><span class="line">DROP TABLE IF EXISTS `user`;</span><br><span class="line">CREATE TABLE `user` (</span><br><span class="line">  `id` int(11) NOT NULL,</span><br><span class="line">  `username` varchar(20) DEFAULT NULL,</span><br><span class="line">  `sex` varchar(6) DEFAULT NULL,</span><br><span class="line">  `birthday` date DEFAULT NULL,</span><br><span class="line">  `address` varchar(20) DEFAULT NULL,</span><br><span class="line">  `password` varchar(20) DEFAULT NULL,</span><br><span class="line">  PRIMARY KEY (`id`)</span><br><span class="line">) ENGINE=InnoDB DEFAULT CHARSET=utf8;</span><br><span class="line">SET FOREIGN_KEY_CHECKS = 1;</span><br></pre></td></tr></tbody></table></figure>
+
+<img src="/2020/02/09/easycode/Mysql.png" class title="Create Database">
+
+<h2 id="3、在IDEA配置连接数据库"><a href="#3、在IDEA配置连接数据库" class="headerlink" title="3、在IDEA配置连接数据库"></a>3、在IDEA配置连接数据库</h2><p>在这之前，新建一个Springboot项目，这个应该是比较简单的。</p>
 <p>建好SpringBoot项目之后，如下图所示，找到这个Database</p>
-<p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Database.png)</p>
+<img src="/2020/02/09/easycode/Database.png" class title="This is an example image">
+
 <p>​    然后填写数据库名字，用户名，密码。点击OK即可。这样的话，<a href="http://mp.weixin.qq.com/s?__biz=MzI4Njc5NjM1NQ==&amp;mid=2247490353&amp;idx=1&amp;sn=e385b6a0ae0b91fa6651cdb5ee6f5d96&amp;chksm=ebd6241ddca1ad0bd02022552a047244a37aab88c239e70a0b176b1214421033246532e07225&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">IDEA连接数据库</a>就完事了。</p>
 <p>​    如果你在连接Mysql时，在地址，用户名，密码，数据库名，全配置好了，点击测试连接，咔！爆红！</p>
-<p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Localhost.png)</p>
+<img src="/2020/02/09/easycode/Localhost.png" class title="Connection MySql">
+
+
 <p>这段错误信息翻译过来就是：服务器返回无效时区。进入“高级”选项卡，手动设置“serverTimezone”属性。</p>
 <p>出现这个问题，一般原因在两个方面，第一，最基本的你Mysql驱动版本可能有问题，第二，设置mysql时区。</p>
 <p>为什么时区会错误呢，那是因为Mysql默认的时区时UTC时区，比北京时间晚8个小时，所以我们要修改mysql的时长，首先我们先来检查下mysql的时区，前提是你安装mysql时配置好了系统环境变量。</p>
 <p>如果你配置好了环境变量，那么就可以在命令窗口直接执行下面的命令啦！</p>
 <p>1.进入命令窗口(Win+R),连接本地数据库 mysql -hlocalhost -uroot -p; ,回车，输入密码图：</p>
 <p>2.继续输入 show variables like ‘%time_zone’;(注意不要漏掉后面的分号)，回车，如果现实 SYSTEM就是没有设置时区。</p>
-<p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\CMD.png)</p>
+<img src="/2020/02/09/easycode/CMD.png" class title="Set the time zone">
+
 <p>3.现在我们来设置时区。</p>
 <p>输入set globaltime_zone=‘+8:00’，回车，如图：</p>
-<p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Time_zone.png)</p>
+<img src="/2020/02/09/easycode/Time_zone.png" class title="Signs of success">
+
 <p>这便是设置成功啦！</p>
 <p>这时你可以重新连接下数据库，如果成功，那么接着往下走！</p>
-<p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Test_Con.png)</p>
-<p>4.开始生成代码</p>
-<p>在这个你IDEA连接中找到你想生成的表，然后右键，就会出现如下所示的截图。</p>
-<p>![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Code.png)</p>
+<img src="/2020/02/09/easycode/Test_Con.png" class title="Reconnection">
+
+<h2 id="4-开始生成代码"><a href="#4-开始生成代码" class="headerlink" title="4.开始生成代码"></a>4.开始生成代码</h2><p>在这个你IDEA连接中找到你想生成的表，然后右键，就会出现如下所示的截图。</p>
+<img src="/2020/02/09/easycode/Code.png" class title="Reverse generated">
+
+<p>选择你要将生成的代码放入哪个文件夹中，选择完以后点击OK即可。</p>
+<img src="/2020/02/09/easycode/Generate_Code.png" class title="Select folder">
+
+<p>这样的话就完成了代码的生成了，生成的代码如下图所示：</p>
+<img src="/2020/02/09/easycode/Coding.png" class title="Select folder">
+
+<h2 id="5-pom-xml"><a href="#5-pom-xml" class="headerlink" title="5.pom.xml"></a>5.pom.xml</h2><figure class="highlight xml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-web<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.projectlombok<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>lombok<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">optional</span>&gt;</span>true<span class="tag">&lt;/<span class="name">optional</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!--热部署--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-devtools<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">optional</span>&gt;</span>true<span class="tag">&lt;/<span class="name">optional</span>&gt;</span> <span class="comment">&lt;!-- 这个需要为 true 热部署才有效 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!--mybatis--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.mybatis.spring.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>mybatis-spring-boot-starter<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.3.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!-- mysql --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>mysql<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>mysql-connector-java<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>5.1.47<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!--阿里巴巴连接池--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>druid<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0.9<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="6-Application-yml"><a href="#6-Application-yml" class="headerlink" title="6.Application.yml"></a>6.Application.yml</h2><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">server:</span></span><br><span class="line">  <span class="attr">port:</span> <span class="number">8089</span></span><br><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">datasource:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">jdbc:mysql://127.0.0.1:3306/easycode?useUnicode=true&amp;characterEncoding=UTF-8</span></span><br><span class="line">    <span class="attr">username:</span> <span class="string">root</span></span><br><span class="line">    <span class="attr">password:</span> <span class="number">123456</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">com.alibaba.druid.pool.DruidDataSource</span></span><br><span class="line">    <span class="attr">driver-class-name:</span> <span class="string">com.mysql.jdbc.Driver</span></span><br><span class="line"></span><br><span class="line"><span class="attr">mybatis:</span></span><br><span class="line">  <span class="attr">mapper-locations:</span> <span class="string">classpath:/mapper/*Dao.xml</span></span><br><span class="line">  <span class="attr">typeAliasesPackage:</span> <span class="string">com.easycode.demo.entity</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="7-启动项目"><a href="#7-启动项目" class="headerlink" title="7.启动项目"></a>7.启动项目</h2><p>在启动项目之前，我们需要修改两个地方。</p>
+<p>在Dao层加上@Mapper注解</p>
+<img src="/2020/02/09/easycode/Mapper.png" class title="Mapper">
+
+<p>在启动类里面加上@MapperScan(“com.easycode.demo.dao”)</p>
+<img src="/2020/02/09/easycode/Springboot.png" class title="Springboot Runner">
+
+<p>启动项目 测试一下</p>
+<p>EasyCode的用法就介绍到这里了，觉得有用的自己可以尝试一下~</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -719,8 +757,8 @@ daovoice('update');
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/02/06/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" rel="next" title="Hexo搭建个人博客">
-                <i class="fa fa-chevron-left"></i> Hexo搭建个人博客
+              <a href="/2020/01/29/%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%EF%BC%9F/" rel="next" title="什么是推荐系统？">
+                <i class="fa fa-chevron-left"></i> 什么是推荐系统？
               </a>
             
           </div>
@@ -785,8 +823,17 @@ daovoice('update');
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -805,7 +852,7 @@ daovoice('update');
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -816,7 +863,7 @@ daovoice('update');
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -827,7 +874,7 @@ daovoice('update');
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -887,6 +934,22 @@ daovoice('update');
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1、安装（Easy-Code"><span class="nav-number">1.</span> <span class="nav-text">1、安装（Easy Code)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2、建立数据库"><span class="nav-number">2.</span> <span class="nav-text">2、建立数据库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3、在IDEA配置连接数据库"><span class="nav-number">3.</span> <span class="nav-text">3、在IDEA配置连接数据库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-开始生成代码"><span class="nav-number">4.</span> <span class="nav-text">4.开始生成代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-pom-xml"><span class="nav-number">5.</span> <span class="nav-text">5.pom.xml</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-Application-yml"><span class="nav-number">6.</span> <span class="nav-text">6.Application.yml</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-启动项目"><span class="nav-number">7.</span> <span class="nav-text">7.启动项目</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -914,7 +977,7 @@ daovoice('update');
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">14k</span>
+    <span title="Site words total count">12.7k</span>
   
 </div>
 

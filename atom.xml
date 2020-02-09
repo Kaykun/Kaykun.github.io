@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-09T10:40:59.328Z</updated>
+  <updated>2020-02-09T13:36:42.861Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,12 +21,12 @@
     <link href="http://yoursite.com/2020/02/09/easycode/"/>
     <id>http://yoursite.com/2020/02/09/easycode/</id>
     <published>2020-02-09T10:28:23.000Z</published>
-    <updated>2020-02-09T10:40:59.328Z</updated>
+    <updated>2020-02-09T13:36:42.861Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;Easycode是idea的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;
-&lt;p&gt;![](D:\Program Files\Hexo-cli\Hexo\source_posts\easycode\Mysql.png)&lt;/p&gt;
+      &lt;p&gt;Easycode是IDEA的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;
+&lt;h2 id=&quot;1、安装（Easy-Code&quot;&gt;&lt;a href=&quot;#1、安装（Easy-Code&quot; class=&quot;headerlink&quot; title=&quot;1、安装（Easy Code)&quot;&gt;&lt;/a&gt;1、安装（Easy Code)&lt;/h2&gt;&lt;img src=&quot;/2020/02/09/easycode/Easy_Code.jpg&quot; class title=&quot;Install Easy_Code&quot;&gt;
     
     </summary>
     
@@ -39,75 +39,9 @@
   </entry>
   
   <entry>
-    <title>Hexo搭建个人博客</title>
-    <link href="http://yoursite.com/2020/02/06/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2020/02/06/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
-    <published>2020-02-06T12:18:39.208Z</published>
-    <updated>2020-02-06T12:49:06.122Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;​      
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo主题</title>
-    <link href="http://yoursite.com/2020/02/03/Hexo%E4%B8%BB%E9%A2%98/"/>
-    <id>http://yoursite.com/2020/02/03/Hexo%E4%B8%BB%E9%A2%98/</id>
-    <published>2020-02-03T03:20:11.000Z</published>
-    <updated>2020-02-06T11:30:19.055Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;![avatar](D:\Program Files\Hexo-cli\Hexo\themes\hexo-theme-next\source\uploads\avatar.jpg)原文链接: Alliot’s blog&lt;br&gt;　　hexo是一个“快速、简洁且高效的博客框架”。其最大的特点是在本地直接生成静态文件，将静态文件上传到服务器端，这样服务器端只有静态的文件，给网站的SEO优化带来了极大的便利，同时，网站的安全性也有了很大的提高，由于静态的网页对环境要求非常小，在流量较小的情况下，甚至可以不需要独立的服务器而直接丢于GitHub或虚拟主机上，对个人博主来说，能够有效的节省服务器开支；markdown的支持让写作更加方便快捷；同时，hexo拥有强大的插件系统与优质的主题（Alliot就是因为NexT这个主题才知道的hexo），高度可定制。官网：hexo.io&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Next美化" scheme="http://yoursite.com/categories/Next%E7%BE%8E%E5%8C%96/"/>
-    
-    
-      <category term="Hexo美化" scheme="http://yoursite.com/tags/Hexo%E7%BE%8E%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo+GitPag搭建个人博客</title>
-    <link href="http://yoursite.com/2020/01/31/Hexo-GitPag%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2020/01/31/Hexo-GitPag%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
-    <published>2020-01-31T04:24:58.000Z</published>
-    <updated>2020-02-03T09:18:49.272Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一、什么是泛型？&lt;/p&gt;
-&lt;p&gt;泛型支持在定义类、接口和方法时将类型作为参数。泛型参数与方法声明中使用的形式参数非常相似，泛型参数使我们可以在不同的输入中重用相同的代码。但与形式参数不同之处在于，形式参数的输入是值，而类型参数的输入是类型。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Next" scheme="http://yoursite.com/categories/Next/"/>
-    
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>什么是推荐系统？</title>
-    <link href="http://yoursite.com/2020/01/29/GitPage+Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2020/01/29/GitPage+Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <link href="http://yoursite.com/2020/01/29/%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%EF%BC%9F/"/>
+    <id>http://yoursite.com/2020/01/29/%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%EF%BC%9F/</id>
     <published>2020-01-29T15:54:00.000Z</published>
     <updated>2020-02-01T12:50:29.850Z</updated>
     
