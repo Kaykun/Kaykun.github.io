@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-03T09:19:14.364Z</updated>
+  <updated>2020-02-09T08:43:26.030Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,15 +17,63 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>代码神器：拒绝重复编码，这款IDEA插件了解一下</title>
+    <link href="http://yoursite.com/2020/02/09/%E4%BB%A3%E7%A0%81%E7%A5%9E%E5%99%A8%EF%BC%9A%E6%8B%92%E7%BB%9D%E9%87%8D%E5%A4%8D%E7%BC%96%E7%A0%81%EF%BC%8C%E8%BF%99%E6%AC%BEIDEA%E6%8F%92%E4%BB%B6%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/"/>
+    <id>http://yoursite.com/2020/02/09/%E4%BB%A3%E7%A0%81%E7%A5%9E%E5%99%A8%EF%BC%9A%E6%8B%92%E7%BB%9D%E9%87%8D%E5%A4%8D%E7%BC%96%E7%A0%81%EF%BC%8C%E8%BF%99%E6%AC%BEIDEA%E6%8F%92%E4%BB%B6%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/</id>
+    <published>2020-02-09T07:17:29.857Z</published>
+    <updated>2020-02-09T08:43:26.030Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;代码神器：拒绝重复编码，这款IDEA插件了解一下&lt;/p&gt;
+&lt;p&gt;Easycode是idea的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;
+&lt;p&gt;1、安装（Easy
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo搭建个人博客</title>
+    <link href="http://yoursite.com/2020/02/06/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2020/02/06/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-02-06T12:18:39.208Z</published>
+    <updated>2020-02-06T12:49:06.122Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;​      
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hexo主题</title>
     <link href="http://yoursite.com/2020/02/03/Hexo%E4%B8%BB%E9%A2%98/"/>
     <id>http://yoursite.com/2020/02/03/Hexo%E4%B8%BB%E9%A2%98/</id>
     <published>2020-02-03T03:20:11.000Z</published>
-    <updated>2020-02-03T09:19:14.364Z</updated>
+    <updated>2020-02-06T11:30:19.055Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;原文链接: Alliot’s blog&lt;br&gt;　　hexo是一个“快速、简洁且高效的博客框架”。其最大的特点是在本地直接生成静态文件，将静态文件上传到服务器端，这样服务器端只有静态的文件，给网站的SEO优化带来了极大的便利，同时，网站的安全性也有了很大的提高，由于静态的网页对环境要求非常小，在流量较小的情况下，甚至可以不需要独立的服务器而直接丢于GitHub或虚拟主机上，对个人博主来说，能够有效的节省服务器开支；markdown的支持让写作更加方便快捷；同时，hexo拥有强大的插件系统与优质的主题（Alliot就是因为NexT这个主题才知道的hexo），高度可定制。官网：hexo.io&lt;/p&gt;
+      &lt;p&gt;![avatar](D:\Program Files\Hexo-cli\Hexo\themes\hexo-theme-next\source\uploads\avatar.jpg)原文链接: Alliot’s blog&lt;br&gt;　　hexo是一个“快速、简洁且高效的博客框架”。其最大的特点是在本地直接生成静态文件，将静态文件上传到服务器端，这样服务器端只有静态的文件，给网站的SEO优化带来了极大的便利，同时，网站的安全性也有了很大的提高，由于静态的网页对环境要求非常小，在流量较小的情况下，甚至可以不需要独立的服务器而直接丢于GitHub或虚拟主机上，对个人博主来说，能够有效的节省服务器开支；markdown的支持让写作更加方便快捷；同时，hexo拥有强大的插件系统与优质的主题（Alliot就是因为NexT这个主题才知道的hexo），高度可定制。官网：hexo.io&lt;/p&gt;
     
     </summary>
     
