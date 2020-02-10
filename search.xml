@@ -1,28 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Typora使用教程</title>
+    <url>/2020/02/10/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>写Mrakdown费事？Typora让你像写Word一样行云流水，所见即所得。</p>
+</blockquote>
+<img src="/2020/02/10/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Typora.jpg" class title="https://www.typora.io/">
+
+<a id="more"></a>
+
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Typora是一款轻便简洁的Markdown编辑器，支持即时渲染技术，这也是与其他Markdown编辑器最显著的区别。即时渲染使得你写Markdown就想是写Word文档一样流畅自如，不像其他编辑器的有编辑栏和显示栏。</p>
+<ul>
+<li>Typora删除了预览窗口，以及所有其他不必要的干扰。取而代之的是实时预览。</li>
+<li>Markdown的语法因不同的解析器或编辑器而异，Typora使用的是<a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/" target="_blank" rel="noopener">GitHub Flavored Markdown</a>。</li>
+</ul>
+<h2 id="Markdown介绍"><a href="#Markdown介绍" class="headerlink" title="Markdown介绍"></a>Markdown介绍</h2><p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。<br>Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。<br>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。<br>Markdown 编写的文档后缀为 <code>.md</code>, <code>.markdown</code>。</p>
+<h2 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h2><ul>
+<li>加粗： <code>Ctrl + B</code></li>
+<li>标题： <code>Ctrl + H</code></li>
+<li>插入链接： <code>Ctrl + K</code></li>
+<li>插入代码： <code>Ctrl + Shift + C</code> – 无法执行</li>
+<li>行内代码： <code>Ctrl + Shift + K</code></li>
+<li>插入图片： <code>Ctrl + Shift + I</code></li>
+<li>无序列表：<code>Ctrl + Shift + L</code> – 无法执行</li>
+<li>撤销： <code>Ctrl + Z</code></li>
+<li>一级标题： <code>Ctrl + 1</code> – 以此类推<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">Ctrl+1  一阶标题    Ctrl+B  字体加粗</span><br><span class="line">Ctrl+2  二阶标题    Ctrl+I  字体倾斜</span><br><span class="line">Ctrl+3  三阶标题    Ctrl+U  下划线</span><br><span class="line">Ctrl+4  四阶标题    Ctrl+Home   返回Typora顶部</span><br><span class="line">Ctrl+5  五阶标题    Ctrl+End    返回Typora底部</span><br><span class="line">Ctrl+6  六阶标题    Ctrl+T  创建表格</span><br><span class="line">Ctrl+L  选中某句话   Ctrl+K  创建超链接</span><br><span class="line">Ctrl+D  选中某个单词  Ctrl+F  搜索</span><br><span class="line">Ctrl+E  选中相同格式的文字   Ctrl+H  搜索并替换</span><br><span class="line">Alt+Shift+5 删除线 Ctrl+Shift+I    插入图片</span><br><span class="line">Ctrl+Shift+M    公式块 Ctrl+Shift+Q    引用</span><br><span class="line"></span><br><span class="line">注：一些实体符号需要在实体符号之前加”\”才能够显示</span><br></pre></td></tr></tbody></table></figure>
+
+</li>
+</ul>
+<p>在markdown中，段落由多个空格分隔。在Typora中，只需回车即可创建新段落。</p>
+<h3 id="标题级别"><a href="#标题级别" class="headerlink" title="标题级别"></a>标题级别</h3><p># 一级标题 快捷键为 Ctrl + 1<br>## 二级标题 快捷键为 Ctrl + 2<br>……<br>###### 六级标题 快捷键为 Ctrl + 6</p>
+<h3 id="引用文字"><a href="#引用文字" class="headerlink" title="引用文字"></a>引用文字</h3><p>&gt; + 空格 + 引用文字</p>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p>使用 * + - 都可以创建一个无序列表</p>
+<ul>
+<li>AAA</li>
+<li>BBB</li>
+<li>CCC<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3>使用 1. 2. 3. 创建有序列表</li>
+</ul>
+<ol>
+<li>AAA</li>
+<li>BBB</li>
+<li>CCC<h3 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h3>-[ ] 不勾选<br>-[x] 勾选<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3>在Typora中插入程序代码的方式有两种：使用反引号 `（~ 键）、使用缩进（Tab）。</li>
+</ol>
+<ul>
+<li>插入行内代码，即插入一个单词或者一句代码的情况，使用 <code>code</code> 这样的形式插入。</li>
+<li>插入多行代码输入3个反引号（`） + 回车，并在后面选择一个语言名称即可实现语法高亮。<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">helloworld</span><span class="params">()</span>:</span></span><br><span class="line">    print(<span class="string">"hello, world!"</span>)</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="数学表达式"><a href="#数学表达式" class="headerlink" title="数学表达式"></a>数学表达式</h3>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。根据需要加载 Mathjax 对数学公式进行渲染。<br>按下 <code>$$</code>，然后按下回车键，即可进行数学公式的编辑。<figure class="highlight markdown"><table><tbody><tr><td class="code"><pre><span class="line">$$</span><br><span class="line">\mathbf{V}<span class="emphasis">_1\times\mathbf{V}_</span>2 = \mathbf{X}_3</span><br><span class="line">$$</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="插入表格"><a href="#插入表格" class="headerlink" title="插入表格"></a>插入表格</h3>输入 <code>| 表头1 | 表头2 |</code>并回车。即可创建一个包含2列表。快捷键 <code>Ctrl + T</code>弹出对话框。<table>
+<thead>
+<tr>
+<th align="center">id</th>
+<th align="center">name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">No.1</td>
+<td align="center">胡凯</td>
+</tr>
+</tbody></table>
+</li>
+<li>不管是哪种方式，第一行为表头，第二行为分割表头和主体部分，第三行开始每一行为一个表格行</li>
+<li>列与列之间用管道符号<code>|</code> 隔开</li>
+<li>还可设置对齐方式(表头与内容之间)，如果不使用对齐标记，内容默认左对齐，表头居中对齐<ul>
+<li>左对齐 ：|</li>
+<li>右对齐 |：</li>
+<li>中对齐 ：|：</li>
+</ul>
+</li>
+<li>为了美观，可以使用空格对齐不同行的单元格，并在左右两侧都使用 | 来标记单元格边界</li>
+<li>为了使 Markdown 更清晰，| 和 - 两侧需要至少有一个空格（最左侧和最右侧的 | 外就不需要了）。</li>
+</ul>
+<h3 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h3><p>这个例子的脚注为<a href="https://www.cnblogs.com/hider/p/11614688.html#fn1" target="_blank" rel="noopener">1</a>。<br>注意：该例子脚注标识是1，脚注标识可以为字母数字下划线，但是暂不支持中文。脚注内容可为任意字符，包括中文。</p>
+<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>输入 <code>***</code> 或者 <code>---</code> 再按回车即可绘制一条水平线，如下：</p>
+<hr>
+<h3 id="目录（TOC）"><a href="#目录（TOC）" class="headerlink" title="目录（TOC）"></a>目录（TOC）</h3><p>输入 <code>[ toc ]</code> 然后回车，即可创建一个“目录”。TOC从文档中提取所有标题，其内容将自动更新。</p>
+<blockquote>
+<p>Typora支持TOC自动生成目录，博客园不支持？</p>
+</blockquote>
+<h2 id="跨度元素"><a href="#跨度元素" class="headerlink" title="跨度元素"></a>跨度元素</h2><p>跨度元素即图片，网址，视频等，在Typora中输入后，会立即载入并呈现。</p>
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><h4 id="内部链接"><a href="#内部链接" class="headerlink" title="内部链接"></a>内部链接</h4><p>这是一个带有标题属性的 <code>[链接](http://example.com/ "标题")</code><br>这是一个没有标题属性的 <code>[链接](http://example.net/)</code><br><a href="http://example.com/" target="_blank" rel="noopener">链接</a><br><a href="http://example.net/" target="_blank" rel="noopener">链接</a></p>
+<h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><p>这是一个[参考链接]id – 无法执行</p>
+<h3 id="网址"><a href="#网址" class="headerlink" title="网址"></a>网址</h3><p>Typora允许用&lt;括号括起来&gt;, 把URL作为链接插入。<br>Typora还会自动链接标准网址。<br><a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a></p>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">![显示的文字](C:\Users\Hider\Desktop\echart.png "图片标题")</span><br><span class="line">![显示的文字](C:\Users\Hider\Desktop\echart.png)</span><br></pre></td></tr></tbody></table></figure>
+<p>除了以上2种方式之外，还可以直接将图片拖拽进来，自动生成链接。</p>
+<h3 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h3><p>使用 <code>*单个星号*</code> 或者 <code>_单下划线_</code> 可以字体倾斜。快捷键 <code>Ctrl + I</code><br><em>斜体</em></p>
+<h3 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h3><p>使用 <code>**两个星号**</code> 或者 <code>__两个下划线__</code> 可以字体加粗。快捷键 <code>Ctrl + B</code><br><strong>加粗</strong></p>
+<h3 id="加粗斜体"><a href="#加粗斜体" class="headerlink" title="加粗斜体"></a>加粗斜体</h3><p>使用<code>***加粗斜体***</code>可以加粗斜体。<br><strong><em>加粗斜体\</em></strong></p>
+<h3 id="代码标记"><a href="#代码标记" class="headerlink" title="代码标记"></a>代码标记</h3><p>标记代码使用反引号，即在英文输入法下，ESC键下面和1键左边的符号。</p>
+<blockquote>
+<p>使用该 <code>printf()</code>功能</p>
+</blockquote>
+<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><p>使用<code>~~删除线~~</code> 快捷键 <code>Alt + Shift + 5</code><br><del>删除线</del></p>
+<h3 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h3><p>\下划线 – 无法执行<br>参考另一篇文章，可执行。<br>通过<code>下划线的内容</code> 或者 快捷键<code>Ctrl + U</code>可实现下划线<br>下划线的内容</p>
+<h3 id="表情符号"><a href="#表情符号" class="headerlink" title="表情符号"></a>表情符号</h3><p>Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。<br>:smile – 无法显示<br>😺</p>
+<h3 id="下标"><a href="#下标" class="headerlink" title="下标"></a>下标</h3><p>可以使用 <code>文本</code>实现下标。<br>(需在设置中打开该功能)<br>H<del>2</del>O<br>H2O</p>
+<h3 id="上标"><a href="#上标" class="headerlink" title="上标"></a>上标</h3><p>可以使用<code>文本</code>实现上标。<br>(需在设置中打开该功能)<br>X^2^<br>X2</p>
+<h3 id="高亮"><a href="#高亮" class="headerlink" title="高亮"></a>高亮</h3><p><code>==高亮==</code>(需在设置中打开该功能)<br>==我是最重要的==</p>
+<h3 id="文本居中"><a href="#文本居中" class="headerlink" title="文本居中"></a>文本居中</h3><p>使用 <code>这是要居中的内容</code>可以使文本居中<br>这是要居中的文本内容</p>
+<h3 id="换行符"><a href="#换行符" class="headerlink" title="换行符"></a>换行符</h3><p>使用 <code>空格 + 空格 + Enter</code>可以实现换行，例如：<br>或者可以使用<code></code>实现换行。</p>
+<h3 id="转义"><a href="#转义" class="headerlink" title="转义"></a>转义</h3><p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：<br><strong>文本加粗</strong><br>** 正常显示星号 **<br>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   下划线</span><br><span class="line">{}  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><p>支持HTML<br>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。<br>目前支持的 HTML 元素有：<code></code>等 ，如：</p>
+<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">使用 &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt; 重启电脑</span><br><span class="line">&lt;kbd&gt; &lt;/kbd&gt; -- 白色框框</span><br></pre></td></tr></tbody></table></figure>
+<p>效果：<br>使用 Ctrl+Alt+Del 重启电脑</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
+<li>建议打开大纲视图<code>Ctrl + Shift + 1</code></li>
+<li>插入表格需要顶格写，否则无法显示</li>
+<li>语法无须刻意记忆，右键可查询</li>
+</ol>
+<blockquote>
+<p>参考链接1：<a href="https://www.simon96.online/2018/10/18/Typora入门（中文版）/" target="_blank" rel="noopener">Typora入门（中文版）</a><br>参考链接2：<a href="https://www.jianshu.com/p/b7fd16a44508" target="_blank" rel="noopener">Typora</a><br>参考链接3：<a href="https://www.jianshu.com/p/65ab196bef04" target="_blank" rel="noopener">Markdown代码块与语法高亮</a><br>参考链接4：<a href="https://www.cnblogs.com/anliux/p/10805103.html" target="_blank" rel="noopener">Markdown使用-表格及其居中等格式</a><br>参考链接5：<a href="https://www.cnblogs.com/rossoneri/p/4446440.html" target="_blank" rel="noopener">Markdown语法小结</a><br>参考链接6：[Runoob：Markdown教程]</p>
+</blockquote>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>Typora</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>代码神器：拒绝重复编码，这款IDEA插件了解一下</title>
     <url>/2020/02/09/easycode/</url>
     <content><![CDATA[<p>Easycode是IDEA的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。</p>
-<h2 id="1、安装（Easy-Code"><a href="#1、安装（Easy-Code" class="headerlink" title="1、安装（Easy Code)"></a>1、安装（Easy Code)</h2><img src="/2020/02/09/easycode/Easy_Code.jpg" class="" title="Install Easy_Code">
+<h2 id="1、安装（Easy-Code"><a href="#1、安装（Easy-Code" class="headerlink" title="1、安装（Easy Code)"></a>1、安装（Easy Code)</h2><img src="/2020/02/09/easycode/Easy_Code.jpg" class title="Install Easy_Code">
 
 <a id="more"></a>
 
 <p>待装好之后，推荐大家可以安装一个插件，叫做Lombok。</p>
-<img src="/2020/02/09/easycode/Lombok.png" class="" title="Install Lombook">
+<img src="/2020/02/09/easycode/Lombok.png" class title="Install Lombook">
 
 <p>Lombok能通过注解的方式，在编译时自动为属性生成构造器、getter/setter、equals、hashcode、toString方法。出现的神奇就是在源码中没有getter和setter方法，但是在编译生成的字节码文件中有getter和setter方法。</p>
 <h2 id="2、建立数据库"><a href="#2、建立数据库" class="headerlink" title="2、建立数据库"></a>2、建立数据库</h2><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">-- ----------------------------</span><br><span class="line">-- Table structure for user</span><br><span class="line">-- ----------------------------</span><br><span class="line">DROP TABLE IF EXISTS `user`;</span><br><span class="line">CREATE TABLE `user` (</span><br><span class="line">  `id` int(11) NOT NULL,</span><br><span class="line">  `username` varchar(20) DEFAULT NULL,</span><br><span class="line">  `sex` varchar(6) DEFAULT NULL,</span><br><span class="line">  `birthday` date DEFAULT NULL,</span><br><span class="line">  `address` varchar(20) DEFAULT NULL,</span><br><span class="line">  `password` varchar(20) DEFAULT NULL,</span><br><span class="line">  PRIMARY KEY (`id`)</span><br><span class="line">) ENGINE=InnoDB DEFAULT CHARSET=utf8;</span><br><span class="line">SET FOREIGN_KEY_CHECKS = 1;</span><br></pre></td></tr></tbody></table></figure>
 
-<img src="/2020/02/09/easycode/Mysql.png" class="" title="Create Database">
+<img src="/2020/02/09/easycode/Mysql.png" class title="Create Database">
 
 <h2 id="3、在IDEA配置连接数据库"><a href="#3、在IDEA配置连接数据库" class="headerlink" title="3、在IDEA配置连接数据库"></a>3、在IDEA配置连接数据库</h2><p>在这之前，新建一个Springboot项目，这个应该是比较简单的。</p>
 <p>建好SpringBoot项目之后，如下图所示，找到这个Database</p>
-<img src="/2020/02/09/easycode/Database.png" class="" title="This is an example image">
+<img src="/2020/02/09/easycode/Database.png" class title="This is an example image">
 
 <p>​    然后填写数据库名字，用户名，密码。点击OK即可。这样的话，<a href="http://mp.weixin.qq.com/s?__biz=MzI4Njc5NjM1NQ==&amp;mid=2247490353&amp;idx=1&amp;sn=e385b6a0ae0b91fa6651cdb5ee6f5d96&amp;chksm=ebd6241ddca1ad0bd02022552a047244a37aab88c239e70a0b176b1214421033246532e07225&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">IDEA连接数据库</a>就完事了。</p>
 <p>​    如果你在连接Mysql时，在地址，用户名，密码，数据库名，全配置好了，点击测试连接，咔！爆红！</p>
-<img src="/2020/02/09/easycode/Localhost.png" class="" title="Connection MySql">
+<img src="/2020/02/09/easycode/Localhost.png" class title="Connection MySql">
 
 
 <p>这段错误信息翻译过来就是：服务器返回无效时区。进入“高级”选项卡，手动设置“serverTimezone”属性。</p>
@@ -31,24 +166,24 @@
 <p>如果你配置好了环境变量，那么就可以在命令窗口直接执行下面的命令啦！</p>
 <p>1.进入命令窗口(Win+R),连接本地数据库 mysql -hlocalhost -uroot -p; ,回车，输入密码图：</p>
 <p>2.继续输入 show variables like ‘%time_zone’;(注意不要漏掉后面的分号)，回车，如果现实 SYSTEM就是没有设置时区。</p>
-<img src="/2020/02/09/easycode/CMD.png" class="" title="Set the time zone">
+<img src="/2020/02/09/easycode/CMD.png" class title="Set the time zone">
 
 <p>3.现在我们来设置时区。</p>
 <p>输入set globaltime_zone=‘+8:00’，回车，如图：</p>
-<img src="/2020/02/09/easycode/Time_zone.png" class="" title="Signs of success">
+<img src="/2020/02/09/easycode/Time_zone.png" class title="Signs of success">
 
 <p>这便是设置成功啦！</p>
 <p>这时你可以重新连接下数据库，如果成功，那么接着往下走！</p>
-<img src="/2020/02/09/easycode/Test_Con.png" class="" title="Reconnection">
+<img src="/2020/02/09/easycode/Test_Con.png" class title="Reconnection">
 
 <h2 id="4-开始生成代码"><a href="#4-开始生成代码" class="headerlink" title="4.开始生成代码"></a>4.开始生成代码</h2><p>在这个你IDEA连接中找到你想生成的表，然后右键，就会出现如下所示的截图。</p>
-<img src="/2020/02/09/easycode/Code.png" class="" title="Reverse generated">
+<img src="/2020/02/09/easycode/Code.png" class title="Reverse generated">
 
 <p>选择你要将生成的代码放入哪个文件夹中，选择完以后点击OK即可。</p>
-<img src="/2020/02/09/easycode/Generate_Code.png" class="" title="Select folder">
+<img src="/2020/02/09/easycode/Generate_Code.png" class title="Select folder">
 
 <p>这样的话就完成了代码的生成了，生成的代码如下图所示：</p>
-<img src="/2020/02/09/easycode/Coding.png" class="" title="Select folder">
+<img src="/2020/02/09/easycode/Coding.png" class title="Select folder">
 
 <h2 id="5-pom-xml"><a href="#5-pom-xml" class="headerlink" title="5.pom.xml"></a>5.pom.xml</h2><figure class="highlight xml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-web<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.projectlombok<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>lombok<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">optional</span>&gt;</span>true<span class="tag">&lt;/<span class="name">optional</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!--热部署--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-devtools<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">optional</span>&gt;</span>true<span class="tag">&lt;/<span class="name">optional</span>&gt;</span> <span class="comment">&lt;!-- 这个需要为 true 热部署才有效 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!--mybatis--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.mybatis.spring.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>mybatis-spring-boot-starter<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.3.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!-- mysql --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>mysql<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>mysql-connector-java<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>5.1.47<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">&lt;!--阿里巴巴连接池--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>druid<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0.9<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
 
@@ -56,10 +191,10 @@
 
 <h2 id="7-启动项目"><a href="#7-启动项目" class="headerlink" title="7.启动项目"></a>7.启动项目</h2><p>在启动项目之前，我们需要修改两个地方。</p>
 <p>在Dao层加上@Mapper注解</p>
-<img src="/2020/02/09/easycode/Mapper.png" class="" title="Mapper">
+<img src="/2020/02/09/easycode/Mapper.png" class title="Mapper">
 
 <p>在启动类里面加上@MapperScan(“com.easycode.demo.dao”)</p>
-<img src="/2020/02/09/easycode/Springboot.png" class="" title="Springboot Runner">
+<img src="/2020/02/09/easycode/Springboot.png" class title="Springboot Runner">
 
 <p>启动项目 测试一下</p>
 <p>EasyCode的用法就介绍到这里了，觉得有用的自己可以尝试一下~</p>
