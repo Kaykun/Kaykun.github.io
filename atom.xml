@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-10T11:22:52.286Z</updated>
+  <updated>2020-02-10T11:37:10.887Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,19 @@
     <link href="http://yoursite.com/2020/02/10/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
     <id>http://yoursite.com/2020/02/10/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
     <published>2020-02-10T11:02:25.000Z</published>
-    <updated>2020-02-10T11:22:52.286Z</updated>
+    <updated>2020-02-10T11:37:10.887Z</updated>
     
     <summary type="html">
     
       &lt;blockquote&gt;
 &lt;p&gt;写Mrakdown费事？Typora让你像写Word一样行云流水，所见即所得。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;img src=&quot;/2020/02/10/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Typora.jpg&quot; class title=&quot;https://www.typora.io/&quot;&gt;
+&lt;img src=&quot;/2020/02/10/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Typora.jpg&quot; class=&quot;&quot; title=&quot;https://www.typora.io/&quot;&gt;
     
     </summary>
     
+    
+      <category term="Typora" scheme="http://yoursite.com/categories/Typora/"/>
     
     
       <category term="Typora" scheme="http://yoursite.com/tags/Typora/"/>
@@ -48,7 +50,7 @@
     <summary type="html">
     
       &lt;p&gt;Easycode是IDEA的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;
-&lt;h2 id=&quot;1、安装（Easy-Code&quot;&gt;&lt;a href=&quot;#1、安装（Easy-Code&quot; class=&quot;headerlink&quot; title=&quot;1、安装（Easy Code)&quot;&gt;&lt;/a&gt;1、安装（Easy Code)&lt;/h2&gt;&lt;img src=&quot;/2020/02/09/easycode/Easy_Code.jpg&quot; class title=&quot;Install Easy_Code&quot;&gt;
+&lt;h2 id=&quot;1、安装（Easy-Code&quot;&gt;&lt;a href=&quot;#1、安装（Easy-Code&quot; class=&quot;headerlink&quot; title=&quot;1、安装（Easy Code)&quot;&gt;&lt;/a&gt;1、安装（Easy Code)&lt;/h2&gt;&lt;img src=&quot;/2020/02/09/easycode/Easy_Code.jpg&quot; class=&quot;&quot; title=&quot;Install Easy_Code&quot;&gt;
     
     </summary>
     
