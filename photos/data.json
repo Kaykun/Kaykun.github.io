@@ -1,4 +1,4 @@
-{"list":[{"date":"2020-2-","arr":{"year":2020,"month":2,"link":["2020-2-2_shuai.jpg"],"text":["shuai"],"type":["image"]}}]}<script>
+{"list":[{"date":"2020-2-","arr":{"year":2020,"month":2,"link":["2020-2-2_hukai.jpg","2020-2-2_shua.jpg","2020-2-2_shuai.jpg"],"text":["hukai","shua","shuai"],"type":["image","image","image"]}}]}<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
