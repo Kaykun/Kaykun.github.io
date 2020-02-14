@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-14T13:33:50.044Z</updated>
+  <updated>2020-02-10T11:55:27.852Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,33 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>photos</title>
-    <link href="http://yoursite.com/2020/02/14/photos/"/>
-    <id>http://yoursite.com/2020/02/14/photos/</id>
-    <published>2020-02-14T13:33:50.000Z</published>
-    <updated>2020-02-14T13:33:50.044Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Typora使用教程</title>
