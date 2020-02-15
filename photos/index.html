@@ -60,10 +60,6 @@
 
 
 
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
 
 
 
@@ -142,14 +138,14 @@
 
 
 
-<meta name="description" content="document.querySelectorAll(&#39;.github-emoji&#39;)           .forEach(el &#x3D;&gt; {             if (!el.dataset.src) { return; }             const img &#x3D; document.createElement(&#39;img&#39;);             img.style">
+<meta name="description" content="Photos     图片正在加载中…      (function() {     var loadScript &#x3D; function(path) {       var $script &#x3D; document.createElement(&#39;script&#39;)       document.getElementsByTagName(&#39;body&#39;)[0].appendChild($script)">
 <meta property="og:type" content="website">
 <meta property="og:title" content="photo">
 <meta property="og:url" content="http://yoursite.com/photos/index.html">
 <meta property="og:site_name" content="萤火虫">
-<meta property="og:description" content="document.querySelectorAll(&#39;.github-emoji&#39;)           .forEach(el &#x3D;&gt; {             if (!el.dataset.src) { return; }             const img &#x3D; document.createElement(&#39;img&#39;);             img.style">
+<meta property="og:description" content="Photos     图片正在加载中…      (function() {     var loadScript &#x3D; function(path) {       var $script &#x3D; document.createElement(&#39;script&#39;)       document.getElementsByTagName(&#39;body&#39;)[0].appendChild($script)">
 <meta property="article:published_time" content="2020-02-15T08:51:11.000Z">
-<meta property="article:modified_time" content="2020-02-15T08:51:11.753Z">
+<meta property="article:modified_time" content="2020-02-15T10:16:44.374Z">
 <meta property="article:author" content="萤火虫">
 <meta name="twitter:card" content="summary">
 
@@ -162,7 +158,7 @@
     scheme: 'Gemini',
     version: '5.1.4',
     sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
-    fancybox: true,
+    fancybox: false,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
@@ -418,7 +414,25 @@ daovoice('update');
       <div class="post-body">
         
         
-          <script>
+          <div class="photos-btn-wrap">
+  <a class="photos-btn active" href="javascript:void(0)" target="_blank" rel="external">Photos</a>
+</div>
+<div class="instagram itemscope">
+  <a href="https://github.com/Kaykun/Kaykun.github.io" target="_blank" class="open-ins">图片正在加载中…</a>
+</div>
+
+<script>
+  (function() {
+    var loadScript = function(path) {
+      var $script = document.createElement('script')
+      document.getElementsByTagName('body')[0].appendChild($script)
+      $script.setAttribute('src', path)
+    }
+    setTimeout(function() {
+        loadScript('../lib/album/ins.js')
+    }, 0)
+  })()
+</script><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -716,8 +730,6 @@ setInterval("createtime()",250);
 
 
 
-  
-
 
 
 
@@ -755,11 +767,6 @@ setInterval("createtime()",250);
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
   
@@ -1258,6 +1265,46 @@ setInterval("createtime()",250);
   
 
 
+  
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+          <div class="pswp__container">
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+          </div>
+          <div class="pswp__ui pswp__ui--hidden">
+              <div class="pswp__top-bar">
+                  <div class="pswp__counter"></div>
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                  <button class="pswp__button pswp__button--share" title="Share"></button>
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                  <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                  <!-- element will get class pswp__preloader--active when preloader is running -->
+                  <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                          <div class="pswp__preloader__donut"></div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div>
+              </div>
+              <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+              </button>
+              <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+              </button>
+              <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+              </div>
+          </div>
+      </div>
+    </div>
   
 
 
