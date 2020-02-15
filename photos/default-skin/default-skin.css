@@ -466,7 +466,7 @@ a.pswp__share--download:hover {
 .pswp__ui--hidden .pswp__caption,
 .pswp__ui--hidden .pswp__button--arrow--left,
 .pswp__ui--hidden .pswp__button--arrow--right {
-  /* Force paint & create composition layer for controls. */
+  /* Force paint &amp; create composition layer for controls. */
   opacity: 0.001; }
 
 /* pswp__ui--one-slide class is added when there is just one item in gallery */
@@ -480,3 +480,22 @@ a.pswp__share--download:hover {
 
 .pswp--minimal--dark .pswp__top-bar {
   background: none; }
+</button><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
