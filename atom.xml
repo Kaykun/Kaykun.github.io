@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-10T11:55:27.852Z</updated>
+  <updated>2020-02-15T08:55:09.364Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git使用教程</title>
+    <link href="http://yoursite.com/2020/02/15/Git%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2020/02/15/Git%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</id>
+    <published>2020-02-15T07:37:06.000Z</published>
+    <updated>2020-02-15T08:55:09.364Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;git使用总结&quot;&gt;&lt;a href=&quot;#git使用总结&quot; class=&quot;headerlink&quot; title=&quot;git使用总结&quot;&gt;&lt;/a&gt;git使用总结&lt;/h2&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;由于最近使用Hexo+GitPage搭建博客 使用Git命令比较多 故将Git使用方法写一篇总结。&lt;/p&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Typora使用教程</title>
