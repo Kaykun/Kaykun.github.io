@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-15T08:55:09.364Z</updated>
+  <updated>2020-02-15T13:13:02.893Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,19 @@
     <link href="http://yoursite.com/2020/02/15/Git%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/"/>
     <id>http://yoursite.com/2020/02/15/Git%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</id>
     <published>2020-02-15T07:37:06.000Z</published>
-    <updated>2020-02-15T08:55:09.364Z</updated>
+    <updated>2020-02-15T13:13:02.893Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;git使用总结&quot;&gt;&lt;a href=&quot;#git使用总结&quot; class=&quot;headerlink&quot; title=&quot;git使用总结&quot;&gt;&lt;/a&gt;git使用总结&lt;/h2&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;由于最近使用Hexo+GitPage搭建博客 使用Git命令比较多 故将Git使用方法写一篇总结。&lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&quot;note info&quot;&gt;&lt;p&gt;由于最近使用Hexo+GitPage搭建博客 使用Git命令比较多 故将Git使用方法写一篇总结。&lt;/p&gt;&lt;/div&gt;
     
     </summary>
     
     
+      <category term="Git" scheme="http://yoursite.com/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
     
   </entry>
   
@@ -44,7 +48,7 @@
     
       &lt;div class=&quot;note info&quot;&gt;&lt;p&gt;写Mrakdown费事？Typora让你像写Word一样行云流水，所见即所得。&lt;/p&gt;&lt;/div&gt;
 
-&lt;img src=&quot;/2020/02/10/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Typora.jpg&quot; class=&quot;&quot; title=&quot;https://www.typora.io/&quot;&gt;
+&lt;img src=&quot;/2020/02/10/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Typora.jpg&quot; class title=&quot;https://www.typora.io/&quot;&gt;
     
     </summary>
     
@@ -66,7 +70,7 @@
     <summary type="html">
     
       &lt;p&gt;Easycode是IDEA的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;
-&lt;h2 id=&quot;1、安装（Easy-Code&quot;&gt;&lt;a href=&quot;#1、安装（Easy-Code&quot; class=&quot;headerlink&quot; title=&quot;1、安装（Easy Code)&quot;&gt;&lt;/a&gt;1、安装（Easy Code)&lt;/h2&gt;&lt;img src=&quot;/2020/02/09/easycode/Easy_Code.jpg&quot; class=&quot;&quot; title=&quot;Install Easy_Code&quot;&gt;
+&lt;h2 id=&quot;1、安装（Easy-Code&quot;&gt;&lt;a href=&quot;#1、安装（Easy-Code&quot; class=&quot;headerlink&quot; title=&quot;1、安装（Easy Code)&quot;&gt;&lt;/a&gt;1、安装（Easy Code)&lt;/h2&gt;&lt;img src=&quot;/2020/02/09/easycode/Easy_Code.jpg&quot; class title=&quot;Install Easy_Code&quot;&gt;
     
     </summary>
     
