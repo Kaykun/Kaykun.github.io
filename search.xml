@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CentOS8新特性</title>
+    <url>/2020/02/22/CentOS8/</url>
+    <content><![CDATA[<blockquote>
+<h4 id="CentOS-8-的新特性"><a href="#CentOS-8-的新特性" class="headerlink" title="CentOS 8 的新特性"></a>CentOS 8 的新特性</h4></blockquote>
+<ul>
+<li><p>DNF 成为了默认的软件包管理器，同时 yum 仍然是可用的</p>
+</li>
+<li><p>使用网络管理器（<code>nmcli</code> 和 <code>nmtui</code>）进行网络配置，移除了网络脚本</p>
+</li>
+<li><p>使用 Podman 进行容器管理</p>
+</li>
+<li><p>引入了两个新的包仓库：BaseOS 和 AppStream</p>
+</li>
+<li><p>使用 Cockpit 作为默认的系统管理工具</p>
+</li>
+<li><p>默认使用 Wayland 作为显示服务器</p>
+</li>
+<li><p><code>iptables</code> 将被 <code>nftables</code> 取代</p>
+</li>
+<li><p>使用 Linux 内核 4.18</p>
+</li>
+<li><p>提供 PHP 7.2、Python 3.6、Ansible 2.8、VIM 8.0 和 Squid 4</p>
+<a id="more"></a>
+
+</li>
+</ul>
+<blockquote>
+<h4 id="CentOS-8-所需的最低硬件配置"><a href="#CentOS-8-所需的最低硬件配置" class="headerlink" title="CentOS 8 所需的最低硬件配置"></a>CentOS 8 所需的最低硬件配置</h4></blockquote>
+<ul>
+<li>2 GB RAM</li>
+<li>64 位 x86 架构、2 GHz 或以上的 CPU</li>
+<li>20 GB 硬盘空间</li>
+</ul>
+<blockquote>
+<h3 id="CentOS配置阿里云yum源和epel源"><a href="#CentOS配置阿里云yum源和epel源" class="headerlink" title="CentOS配置阿里云yum源和epel源"></a>CentOS配置阿里云yum源和epel源</h3></blockquote>
+<p># cd /etc/yum.repos.d</p>
+<img src="/2020/02/22/CentOS8/Aliyun.png" class="" title="Aliyun">
+
+<p># vim CentOS-AppStream.repo</p>
+<p><strong>baseurl=<a href="https://mirrors.aliyun.com/centos/$releasever/AppStream/$basearch/os/" target="_blank" rel="noopener">https://mirrors.aliyun.com/centos/$releasever/AppStream/$basearch/os/</a></strong></p>
+<img src="/2020/02/22/CentOS8/AppStream.png" class="" title="AppStream">
+
+<p># vim CentOS-Base.repo</p>
+<p><strong>baseurl=<a href="https://mirrors.aliyun.com/centos/$releasever/BaseOS/$basearch/os/" target="_blank" rel="noopener">https://mirrors.aliyun.com/centos/$releasever/BaseOS/$basearch/os/</a></strong></p>
+<img src="/2020/02/22/CentOS8/BaseOS.png" class="" title="BaseOS">
+
+<p># vim CentOS-Extras.repo</p>
+<p><strong>baseurl=<a href="https://mirrors.aliyun.com/centos/$releasever/extras/$basearch/os/" target="_blank" rel="noopener">https://mirrors.aliyun.com/centos/$releasever/extras/$basearch/os/</a></strong></p>
+<img src="/2020/02/22/CentOS8/Extras.png" class="" title="Extras">
+
+<p># dnf -y install epel-release</p>
+<p># dnf clean all</p>
+<p># dnf makecache</p>
+<p># dnf repolist</p>
+<img src="/2020/02/22/CentOS8/DNF.png" class="" title="epel"><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>Linux CentOS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>git使用教程</title>
     <url>/2020/02/15/Git%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<div class="note info"><p>由于最近使用Hexo+GitPage搭建博客 使用Git命令比较多 故将Git使用方法写一篇总结。</p></div>
