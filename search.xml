@@ -26,8 +26,9 @@
 <li>20 GB 硬盘空间</li>
 </ul>
 <blockquote>
-<p>CentOS 8安装</p>
-</blockquote>
+<h4 id="镜像下载地址"><a href="#镜像下载地址" class="headerlink" title="镜像下载地址"></a>镜像下载地址</h4></blockquote>
+<p>CentOS 8 下载：<a href="https://centos.org/download/" target="_blank" rel="noopener">https://centos.org/download/</a></p>
+<p>国内镜像下载：<a href="https://mirrors.tuna.tsinghua.edu.cn/centos/" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/centos/</a></p>
 <blockquote>
 <h3 id="CentOS配置阿里云yum源和epel源"><a href="#CentOS配置阿里云yum源和epel源" class="headerlink" title="CentOS配置阿里云yum源和epel源"></a>CentOS配置阿里云yum源和epel源</h3></blockquote>
 <p># cd /etc/yum.repos.d</p>

@@ -1993,7 +1993,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0ae747;
+  background: #a2479d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3793,4 +3793,7 @@ div.vcontrol {
 .v .vlist .vcard .vcontent.expand:after {
   content: "点击查看全部" !important;
   font-weight: 400 !important;
+}
+ul {
+  padding-inline-start: 0px;
 }
