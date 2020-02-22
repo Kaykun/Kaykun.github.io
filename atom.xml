@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-22T08:04:29.730Z</updated>
+  <updated>2020-02-22T09:21:45.839Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,34 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>CentOS8新特性</title>
+    <title>CentOS 8</title>
     <link href="http://yoursite.com/2020/02/22/CentOS8/"/>
     <id>http://yoursite.com/2020/02/22/CentOS8/</id>
     <published>2020-02-22T06:32:22.000Z</published>
-    <updated>2020-02-22T08:04:29.730Z</updated>
+    <updated>2020-02-22T09:21:45.839Z</updated>
     
     <summary type="html">
     
       &lt;blockquote&gt;
 &lt;h4 id=&quot;CentOS-8-的新特性&quot;&gt;&lt;a href=&quot;#CentOS-8-的新特性&quot; class=&quot;headerlink&quot; title=&quot;CentOS 8 的新特性&quot;&gt;&lt;/a&gt;CentOS 8 的新特性&lt;/h4&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;DNF 成为了默认的软件包管理器，同时 yum 仍然是可用的&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;使用网络管理器（&lt;code&gt;nmcli&lt;/code&gt; 和 &lt;code&gt;nmtui&lt;/code&gt;）进行网络配置，移除了网络脚本&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;使用 Podman 进行容器管理&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;引入了两个新的包仓库：BaseOS 和 AppStream&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;使用 Cockpit 作为默认的系统管理工具&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;默认使用 Wayland 作为显示服务器&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;iptables&lt;/code&gt; 将被 &lt;code&gt;nftables&lt;/code&gt; 取代&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;使用 Linux 内核 4.18&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;提供 PHP 7.2、Python 3.6、Ansible 2.8、VIM 8.0 和 Squid 4&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;DNF 成为了默认的软件包管理器，同时 yum 仍然是可用的&lt;/li&gt;
+&lt;li&gt;使用网络管理器（&lt;code&gt;nmcli&lt;/code&gt; 和 &lt;code&gt;nmtui&lt;/code&gt;）进行网络配置，移除了网络脚本&lt;/li&gt;
+&lt;li&gt;使用 Podman 进行容器管理&lt;/li&gt;
+&lt;li&gt;引入了两个新的包仓库：BaseOS 和 AppStream&lt;/li&gt;
+&lt;li&gt;使用 Cockpit 作为默认的系统管理工具&lt;/li&gt;
+&lt;li&gt;默认使用 Wayland 作为显示服务器&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;iptables&lt;/code&gt; 将被 &lt;code&gt;nftables&lt;/code&gt; 取代&lt;/li&gt;
+&lt;li&gt;使用 Linux 内核 4.18&lt;/li&gt;
+&lt;li&gt;提供 PHP 7.2、Python 3.6、Ansible 2.8、VIM 8.0 和 Squid 4&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     

@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>CentOS8新特性</title>
+    <title>CentOS 8</title>
     <url>/2020/02/22/CentOS8/</url>
     <content><![CDATA[<blockquote>
 <h4 id="CentOS-8-的新特性"><a href="#CentOS-8-的新特性" class="headerlink" title="CentOS 8 的新特性"></a>CentOS 8 的新特性</h4></blockquote>
 <ul>
-<li><p>DNF 成为了默认的软件包管理器，同时 yum 仍然是可用的</p>
-</li>
-<li><p>使用网络管理器（<code>nmcli</code> 和 <code>nmtui</code>）进行网络配置，移除了网络脚本</p>
-</li>
-<li><p>使用 Podman 进行容器管理</p>
-</li>
-<li><p>引入了两个新的包仓库：BaseOS 和 AppStream</p>
-</li>
-<li><p>使用 Cockpit 作为默认的系统管理工具</p>
-</li>
-<li><p>默认使用 Wayland 作为显示服务器</p>
-</li>
-<li><p><code>iptables</code> 将被 <code>nftables</code> 取代</p>
-</li>
-<li><p>使用 Linux 内核 4.18</p>
-</li>
-<li><p>提供 PHP 7.2、Python 3.6、Ansible 2.8、VIM 8.0 和 Squid 4</p>
+<li>DNF 成为了默认的软件包管理器，同时 yum 仍然是可用的</li>
+<li>使用网络管理器（<code>nmcli</code> 和 <code>nmtui</code>）进行网络配置，移除了网络脚本</li>
+<li>使用 Podman 进行容器管理</li>
+<li>引入了两个新的包仓库：BaseOS 和 AppStream</li>
+<li>使用 Cockpit 作为默认的系统管理工具</li>
+<li>默认使用 Wayland 作为显示服务器</li>
+<li><code>iptables</code> 将被 <code>nftables</code> 取代</li>
+<li>使用 Linux 内核 4.18</li>
+<li>提供 PHP 7.2、Python 3.6、Ansible 2.8、VIM 8.0 和 Squid 4</li>
+</ul>
 <a id="more"></a>
 
-</li>
-</ul>
 <blockquote>
 <h4 id="CentOS-8-所需的最低硬件配置"><a href="#CentOS-8-所需的最低硬件配置" class="headerlink" title="CentOS 8 所需的最低硬件配置"></a>CentOS 8 所需的最低硬件配置</h4></blockquote>
 <ul>
@@ -34,6 +25,9 @@
 <li>64 位 x86 架构、2 GHz 或以上的 CPU</li>
 <li>20 GB 硬盘空间</li>
 </ul>
+<blockquote>
+<p>CentOS 8安装</p>
+</blockquote>
 <blockquote>
 <h3 id="CentOS配置阿里云yum源和epel源"><a href="#CentOS配置阿里云yum源和epel源" class="headerlink" title="CentOS配置阿里云yum源和epel源"></a>CentOS配置阿里云yum源和epel源</h3></blockquote>
 <p># cd /etc/yum.repos.d</p>
