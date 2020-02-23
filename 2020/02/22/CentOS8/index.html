@@ -598,19 +598,19 @@ daovoice('update');
 <blockquote>
 <h3 id="CentOS配置阿里云yum源和epel源"><a href="#CentOS配置阿里云yum源和epel源" class="headerlink" title="CentOS配置阿里云yum源和epel源"></a>CentOS配置阿里云yum源和epel源</h3></blockquote>
 <p># cd /etc/yum.repos.d</p>
-<img src="/2020/02/22/CentOS8/Aliyun.png" class="" title="Aliyun">
+<img src="/2020/02/22/CentOS8/Aliyun.png" class title="Aliyun">
 
 <p># vim CentOS-AppStream.repo<br><strong>baseurl=<a href="https://mirrors.aliyun.com/centos/$releasever/AppStream/$basearch/os/" target="_blank" rel="noopener">https://mirrors.aliyun.com/centos/$releasever/AppStream/$basearch/os/</a></strong></p>
-<img src="/2020/02/22/CentOS8/AppStream.png" class="" title="AppStream">
+<img src="/2020/02/22/CentOS8/AppStream.png" class title="AppStream">
 
 <p># vim CentOS-Base.repo<br><strong>baseurl=<a href="https://mirrors.aliyun.com/centos/$releasever/BaseOS/$basearch/os/" target="_blank" rel="noopener">https://mirrors.aliyun.com/centos/$releasever/BaseOS/$basearch/os/</a></strong></p>
-<img src="/2020/02/22/CentOS8/BaseOS.png" class="" title="BaseOS">
+<img src="/2020/02/22/CentOS8/BaseOS.png" class title="BaseOS">
 
 <p># vim CentOS-Extras.repo<br><strong>baseurl=<a href="https://mirrors.aliyun.com/centos/$releasever/extras/$basearch/os/" target="_blank" rel="noopener">https://mirrors.aliyun.com/centos/$releasever/extras/$basearch/os/</a></strong></p>
-<img src="/2020/02/22/CentOS8/Extras.png" class="" title="Extras">
+<img src="/2020/02/22/CentOS8/Extras.png" class title="Extras">
 
 <p># dnf -y install epel-release<br># dnf clean all<br># dnf makecache<br># dnf repolist</p>
-<img src="/2020/02/22/CentOS8/DNF.png" class="" title="epel">
+<img src="/2020/02/22/CentOS8/DNF.png" class title="epel">
 
 <script>
         document.querySelectorAll('.github-emoji')
