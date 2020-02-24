@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-22T09:58:29.643Z</updated>
+  <updated>2020-02-24T12:39:17.159Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Windows10内置PowerShell连接虚拟机Linux系统</title>
+    <link href="http://yoursite.com/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://yoursite.com/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/</id>
+    <published>2020-02-24T07:44:49.000Z</published>
+    <updated>2020-02-24T12:39:17.159Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;​       &lt;/p&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;为了学习和使用Linux，多数人选择了使用虚拟机的方式来安装Linux。&lt;/p&gt;&lt;/div&gt;&lt;br&gt;​        虚拟机的选择可以参考：&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>CentOS 8</title>
@@ -81,7 +108,7 @@
     
       &lt;div class=&quot;note info&quot;&gt;&lt;p&gt;写Mrakdown费事？Typora让你像写Word一样行云流水，所见即所得。&lt;/p&gt;&lt;/div&gt;
 
-&lt;img src=&quot;/2020/02/10/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Typora.jpg&quot; class=&quot;&quot; title=&quot;https://www.typora.io/&quot;&gt;
+&lt;img src=&quot;/2020/02/10/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Typora.jpg&quot; class title=&quot;https://www.typora.io/&quot;&gt;
     
     </summary>
     
@@ -103,7 +130,7 @@
     <summary type="html">
     
       &lt;p&gt;Easycode是IDEA的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;
-&lt;h2 id=&quot;1、安装（Easy-Code&quot;&gt;&lt;a href=&quot;#1、安装（Easy-Code&quot; class=&quot;headerlink&quot; title=&quot;1、安装（Easy Code)&quot;&gt;&lt;/a&gt;1、安装（Easy Code)&lt;/h2&gt;&lt;img src=&quot;/2020/02/09/easycode/Easy_Code.jpg&quot; class=&quot;&quot; title=&quot;Install Easy_Code&quot;&gt;
+&lt;h2 id=&quot;1、安装（Easy-Code&quot;&gt;&lt;a href=&quot;#1、安装（Easy-Code&quot; class=&quot;headerlink&quot; title=&quot;1、安装（Easy Code)&quot;&gt;&lt;/a&gt;1、安装（Easy Code)&lt;/h2&gt;&lt;img src=&quot;/2020/02/09/easycode/Easy_Code.jpg&quot; class title=&quot;Install Easy_Code&quot;&gt;
     
     </summary>
     

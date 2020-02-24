@@ -131,7 +131,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, Hukai" />
+  <meta name="keywords" content="Linux," />
 
 
 
@@ -144,15 +144,16 @@
 
 
 
-<meta name="description" content="document.querySelectorAll(&#39;.github-emoji&#39;)           .forEach(el &#x3D;&gt; {             if (!el.dataset.src) { return; }             const img &#x3D; document.createElement(&#39;img&#39;);             img.style">
-<meta property="og:type" content="website">
-<meta property="og:title" content="类别">
-<meta property="og:url" content="http://yoursite.com/categories/index.html">
+<meta name="description" content="​       为了学习和使用Linux，多数人选择了使用虚拟机的方式来安装Linux。​        虚拟机的选择可以参考： 2020年最好的虚拟机测评推荐​        我之前使用的VMware Workstation Pro，但是因为体积大需要激活码注册，所以我现在现阶段选择使用的是Virtualbox，轻量级并且免费，功能方面成熟也齐全。VirtualBox提供了多种网络连接方式，不同">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Windows10内置PowerShell连接虚拟机Linux系统">
+<meta property="og:url" content="http://yoursite.com/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/index.html">
 <meta property="og:site_name" content="萤火虫">
-<meta property="og:description" content="document.querySelectorAll(&#39;.github-emoji&#39;)           .forEach(el &#x3D;&gt; {             if (!el.dataset.src) { return; }             const img &#x3D; document.createElement(&#39;img&#39;);             img.style">
-<meta property="article:published_time" content="2020-01-29T16:14:28.000Z">
-<meta property="article:modified_time" content="2020-02-03T09:08:46.747Z">
+<meta property="og:description" content="​       为了学习和使用Linux，多数人选择了使用虚拟机的方式来安装Linux。​        虚拟机的选择可以参考： 2020年最好的虚拟机测评推荐​        我之前使用的VMware Workstation Pro，但是因为体积大需要激活码注册，所以我现在现阶段选择使用的是Virtualbox，轻量级并且免费，功能方面成熟也齐全。VirtualBox提供了多种网络连接方式，不同">
+<meta property="article:published_time" content="2020-02-24T07:44:49.000Z">
+<meta property="article:modified_time" content="2020-02-24T12:39:17.159Z">
 <meta property="article:author" content="萤火虫">
+<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary">
 
 
@@ -186,7 +187,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/"/>
+  <link rel="canonical" href="http://yoursite.com/2020/02/24/使用Windows10内置PowerShell连接虚拟机Linux系统/"/>
 
 
 
@@ -202,7 +203,7 @@ daovoice('update');
 
 
 
-  <title>类别 | 萤火虫</title>
+  <title>使用Windows10内置PowerShell连接虚拟机Linux系统 | 萤火虫</title>
   
 
 
@@ -403,41 +404,374 @@ daovoice('update');
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="萤火虫">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="萤火虫">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h2 class="post-title" itemprop="name headline">类别</h2>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="category-all-page">
-            <div class="category-all-title">
-                目前共计 6 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/CentOS/">CentOS</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Easycode/">Easycode</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Typora/">Typora</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/">推荐系统</a><span class="category-list-count">1</span></li></ul>
-            </div>
-          </div>
-          <!-- 友情链接-->
+          <h2 class="post-title" itemprop="name headline">使用Windows10内置PowerShell连接虚拟机Linux系统</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-24T15:44:49+08:00">
+                2020-02-24
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-02-24T20:39:17+08:00">
+                2020-02-24
+              </time>
+            
+          </span>
+
           
-      </div>
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  654
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  2
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>​       </p><div class="note info"><p>为了学习和使用Linux，多数人选择了使用虚拟机的方式来安装Linux。</p></div><br>​        虚拟机的选择可以参考：<a href="https://www.10besty.com/best-virtual-machine-applications/" target="_blank" rel="noopener"> 2020年最好的虚拟机测评推荐</a><br>​        我之前使用的<a href="https://store.vmware.com/store?Action=home&amp;Env=BASE&amp;Locale=zh_CN&amp;SiteID=vmware" target="_blank" rel="noopener">VMware Workstation Pro</a>，但是因为体积大需要激活码注册，所以我现在现阶段选择使用的是Virtualbox，轻量级并且免费，功能方面成熟也齐全。VirtualBox提供了多种网络连接方式，不同的网络连接方式决定了虚拟机是否可以联网，以及是否可以和宿主机互相ping通。本文将主要介绍常用的桥接、NAT和host-only三种网络连接方式的区别，以减少大家在使用中的困扰。<p></p>
+<h4 id="一、不同网络连接方式对网络影响简介"><a href="#一、不同网络连接方式对网络影响简介" class="headerlink" title="一、不同网络连接方式对网络影响简介"></a>一、不同网络连接方式对网络影响简介</h4><table>
+<thead>
+<tr>
+<th></th>
+<th>桥接</th>
+<th>NAT</th>
+<th>host-only</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>虚拟机与宿主机</td>
+<td>彼此互通，处于同一网段</td>
+<td>虚拟机能访问宿主机；宿主机不能访问虚拟机</td>
+<td>虚拟机不能访问宿主机；宿主机能访问虚拟机</td>
+</tr>
+<tr>
+<td>虚拟机与虚拟机</td>
+<td>彼此互通，处于同一网段</td>
+<td>彼此不通</td>
+<td>彼此互通，处于同一网段</td>
+</tr>
+<tr>
+<td>虚拟机与其他主机</td>
+<td>彼此互通，处于同一网段</td>
+<td>虚拟机能访问其他主机；其他主机不能访问虚拟机</td>
+<td>彼此不通；需要设置</td>
+</tr>
+<tr>
+<td>虚拟机与互联网</td>
+<td>虚拟机可以上网</td>
+<td>虚拟机可以上网</td>
+<td>彼此不通；需要设置</td>
+</tr>
+</tbody></table>
+<h4 id="二、virtualbox视图快捷键说明"><a href="#二、virtualbox视图快捷键说明" class="headerlink" title="二、virtualbox视图快捷键说明"></a>二、virtualbox视图快捷键说明</h4><p>刚才因为无意触碰到全屏模式导致整个页面分辨率都模糊难触控，搜了半天才退出，记录下：<br>首先说明一下，Virtualbox中默认的host键是右ctrl，调出快捷菜单的组合键是host+home，这个请记住，因为在有的显示模式下是不显示菜单的。<br>‘视图’菜单下共有5个选项，分别是：</p>
+<ul>
+<li><p>切换到全屏模式 HOST+F</p>
+</li>
+<li><p>切换到无缝模式 HOST+L</p>
+</li>
+<li><p>切换到自动缩放模式 HOST+C</p>
+</li>
+<li><p>自动调整显示尺寸 HOST+G</p>
+</li>
+<li><p>自动调整窗口大小 HOST+A</p>
+</li>
+</ul>
+<p>每个选项前都有个小图标，如果小图标上显示一个对号，意思就是打开了这个选项。注意无缝模式和自动调整显示尺寸需要guest additions支持，所以非windows的虚拟机里这两个选项是灰色的。</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
       
     </div>
+
+    <!-- 相关文章推荐 -->
+          
+               
+
+          
+
     
     
     
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>觉得文章对您有帮助请我喝杯咖啡吧^_^</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/uploads/wechatpay.jpg" alt="萤火虫 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/uploads/alipay.jpg" alt="萤火虫 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    萤火虫
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://yoursite.com/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/" title="使用Windows10内置PowerShell连接虚拟机Linux系统">http://yoursite.com/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+     <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">------------本文结束<i class="fa fa-heart"></i>感谢您的阅读------------</div>
+    
+</div>
+
+      
+     </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div id="wpac-rating"></div>
+          </div>
+        
+
+        
+
+        
+          
+          <div id="needsharebutton-postbottom">
+            <span class="btn">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </span>
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/02/22/CentOS8/" rel="next" title="CentOS 8">
+                <i class="fa fa-chevron-left"></i> CentOS 8
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -446,6 +780,14 @@ daovoice('update');
 
 
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
 
 
 
@@ -468,8 +810,17 @@ daovoice('update');
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -569,6 +920,22 @@ daovoice('update');
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#一、不同网络连接方式对网络影响简介"><span class="nav-number">1.</span> <span class="nav-text">一、不同网络连接方式对网络影响简介</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二、virtualbox视图快捷键说明"><span class="nav-number">2.</span> <span class="nav-text">二、virtualbox视图快捷键说明</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1234,6 +1601,23 @@ setInterval("createtime()",250);
   </script>
 
   
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: 23179,
+    el: 'wpac-rating',
+    color: 'fc6423'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
 
   
 
