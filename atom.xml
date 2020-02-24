@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-24T12:39:17.159Z</updated>
+  <updated>2020-02-24T14:35:18.353Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,12 @@
     <link href="http://yoursite.com/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/"/>
     <id>http://yoursite.com/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/</id>
     <published>2020-02-24T07:44:49.000Z</published>
-    <updated>2020-02-24T12:39:17.159Z</updated>
+    <updated>2020-02-24T14:35:18.353Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;​       &lt;/p&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;为了学习和使用Linux，多数人选择了使用虚拟机的方式来安装Linux。&lt;/p&gt;&lt;/div&gt;&lt;br&gt;​        虚拟机的选择可以参考：&lt;a
-        
-      
+      &lt;div class=&quot;note info&quot;&gt;&lt;p&gt;为了学习和使用Linux，多数人选择了使用虚拟机的方式来安装Linux。&lt;/p&gt;&lt;/div&gt;     虚拟机的选择可以参考：&lt;a href=&quot;https://www.10besty.com/best-virtual-machine-applications/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; 2020年最好的虚拟机测评推荐&lt;/a&gt;
+&lt;p&gt;​我之前使用的&lt;a href=&quot;https://store.vmware.com/store?Action=home&amp;amp;Env=BASE&amp;amp;Locale=zh_CN&amp;amp;SiteID=vmware&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;VMware Workstation Pro&lt;/a&gt;，但是因为体积大需要激活码注册，所以我现在现阶段选择使用的是Virtualbox，轻量级并且免费，功能方面成熟也齐全。VirtualBox提供了多种网络连接方式，不同的网络连接方式决定了虚拟机是否可以联网，以及是否可以和宿主机互相ping通。本文将主要介绍常用的桥接、NAT和host-only三种网络连接方式的区别，以减少大家在使用中的困扰。&lt;/p&gt;
     
     </summary>
     

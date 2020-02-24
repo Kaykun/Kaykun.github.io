@@ -3,7 +3,10 @@
   <entry>
     <title>使用Windows10内置PowerShell连接虚拟机Linux系统</title>
     <url>/2020/02/24/%E4%BD%BF%E7%94%A8Windows10%E5%86%85%E7%BD%AEPowerShell%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BALinux%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<p>​       </p><div class="note info"><p>为了学习和使用Linux，多数人选择了使用虚拟机的方式来安装Linux。</p></div><br>​        虚拟机的选择可以参考：<a href="https://www.10besty.com/best-virtual-machine-applications/" target="_blank" rel="noopener"> 2020年最好的虚拟机测评推荐</a><br>​        我之前使用的<a href="https://store.vmware.com/store?Action=home&amp;Env=BASE&amp;Locale=zh_CN&amp;SiteID=vmware" target="_blank" rel="noopener">VMware Workstation Pro</a>，但是因为体积大需要激活码注册，所以我现在现阶段选择使用的是Virtualbox，轻量级并且免费，功能方面成熟也齐全。VirtualBox提供了多种网络连接方式，不同的网络连接方式决定了虚拟机是否可以联网，以及是否可以和宿主机互相ping通。本文将主要介绍常用的桥接、NAT和host-only三种网络连接方式的区别，以减少大家在使用中的困扰。<p></p>
+    <content><![CDATA[<div class="note info"><p>为了学习和使用Linux，多数人选择了使用虚拟机的方式来安装Linux。</p></div>     虚拟机的选择可以参考：<a href="https://www.10besty.com/best-virtual-machine-applications/" target="_blank" rel="noopener"> 2020年最好的虚拟机测评推荐</a>
+<p>​我之前使用的<a href="https://store.vmware.com/store?Action=home&amp;Env=BASE&amp;Locale=zh_CN&amp;SiteID=vmware" target="_blank" rel="noopener">VMware Workstation Pro</a>，但是因为体积大需要激活码注册，所以我现在现阶段选择使用的是Virtualbox，轻量级并且免费，功能方面成熟也齐全。VirtualBox提供了多种网络连接方式，不同的网络连接方式决定了虚拟机是否可以联网，以及是否可以和宿主机互相ping通。本文将主要介绍常用的桥接、NAT和host-only三种网络连接方式的区别，以减少大家在使用中的困扰。</p>
+<a id="more"></a>
+
 <h4 id="一、不同网络连接方式对网络影响简介"><a href="#一、不同网络连接方式对网络影响简介" class="headerlink" title="一、不同网络连接方式对网络影响简介"></a>一、不同网络连接方式对网络影响简介</h4><table>
 <thead>
 <tr>
