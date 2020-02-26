@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://besthk.top/share.js/package.json</loc>
+    <loc>http://besthk.top/tags/index.html</loc>
     
-    <lastmod>2020-02-26T08:08:52.370Z</lastmod>
+    <lastmod>2020-02-26T09:09:51.168Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://besthk.top/share.js/demo/test-jquery.html</loc>
+    <loc>http://besthk.top/share.js/package.json</loc>
     
-    <lastmod>2020-02-26T08:08:52.366Z</lastmod>
+    <lastmod>2020-02-26T08:08:52.370Z</lastmod>
     
   </url>
   
@@ -23,14 +23,21 @@
   </url>
   
   <url>
-    <loc>http://besthk.top/share.js/bower.json</loc>
+    <loc>http://besthk.top/share.js/demo/test-jquery.html</loc>
+    
+    <lastmod>2020-02-26T08:08:52.366Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://besthk.top/share.js/README.html</loc>
     
     <lastmod>2020-02-26T08:08:52.365Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://besthk.top/share.js/README.html</loc>
+    <loc>http://besthk.top/share.js/bower.json</loc>
     
     <lastmod>2020-02-26T08:08:52.365Z</lastmod>
     
