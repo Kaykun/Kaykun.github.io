@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://besthk.top/about/index.html</loc>
+    
+    <lastmod>2020-02-27T06:58:24.817Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://besthk.top/2020/02/22/CentOS8/</loc>
     
     <lastmod>2020-02-27T05:18:49.547Z</lastmod>
@@ -37,13 +44,6 @@
   </url>
   
   <url>
-    <loc>http://besthk.top/share.js/demo/test-jquery.html</loc>
-    
-    <lastmod>2020-02-26T08:08:52.366Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://besthk.top/share.js/demo/test-no-jquery.html</loc>
     
     <lastmod>2020-02-26T08:08:52.366Z</lastmod>
@@ -51,14 +51,21 @@
   </url>
   
   <url>
-    <loc>http://besthk.top/share.js/README.html</loc>
+    <loc>http://besthk.top/share.js/demo/test-jquery.html</loc>
+    
+    <lastmod>2020-02-26T08:08:52.366Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://besthk.top/share.js/bower.json</loc>
     
     <lastmod>2020-02-26T08:08:52.365Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://besthk.top/share.js/bower.json</loc>
+    <loc>http://besthk.top/share.js/README.html</loc>
     
     <lastmod>2020-02-26T08:08:52.365Z</lastmod>
     
@@ -82,13 +89,6 @@
     <loc>http://besthk.top/baidu_verify_2eKArk1MSl.html</loc>
     
     <lastmod>2020-02-25T16:21:23.359Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://besthk.top/about/index.html</loc>
-    
-    <lastmod>2020-02-25T14:43:13.144Z</lastmod>
     
   </url>
   
