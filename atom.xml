@@ -42,11 +42,11 @@
     <link href="http://besthk.top/2020/02/22/CentOS8/"/>
     <id>http://besthk.top/2020/02/22/CentOS8/</id>
     <published>2020-02-22T06:32:22.000Z</published>
-    <updated>2020-02-27T05:18:49.547Z</updated>
+    <updated>2020-02-27T11:22:39.345Z</updated>
     
     <summary type="html">
     
-      Welcome to my blog,enter password to read
+      &lt;blockquote&gt;&lt;h4 id=&quot;CentOS-8-的新特性&quot;&gt;&lt;a href=&quot;#CentOS-8-的新特性&quot; class=&quot;headerlink&quot; title=&quot;CentOS 8 的新特性&quot;&gt;&lt;/a&gt;CentOS 8 的新特性&lt;/h4&gt;&lt;/blockquote&gt;&lt;ul&gt;&lt;li&gt;DNF 成为了默认的软件包管理器，同时 yum 仍然是可用的&lt;/li&gt;&lt;li&gt;使用网络管理器（&lt;code&gt;nmcli&lt;/code&gt; 和 &lt;code&gt;nmtui&lt;/code&gt;）进行网络配置，移除了网络脚本&lt;/li&gt;&lt;li&gt;使用 Podman 进行容器管理&lt;/li&gt;&lt;li&gt;引入了两个新的包仓库：BaseOS 和 AppStream&lt;/li&gt;&lt;li&gt;使用 Cockpit 作为默认的系统管理工具&lt;/li&gt;&lt;li&gt;默认使用 Wayland 作为显示服务器&lt;/li&gt;&lt;li&gt;&lt;code&gt;iptables&lt;/code&gt; 将被 &lt;code&gt;nftables&lt;/code&gt; 取代&lt;/li&gt;&lt;li&gt;使用 Linux 内核 4.18&lt;/li&gt;&lt;li&gt;提供 PHP 7.2、Python 3.6、Ansible 2.8、VIM 8.0 和 Squid 4&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -63,11 +63,11 @@
     <link href="http://besthk.top/2020/02/15/Git%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/"/>
     <id>http://besthk.top/2020/02/15/Git%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</id>
     <published>2020-02-15T07:37:06.000Z</published>
-    <updated>2020-02-26T05:33:49.780Z</updated>
+    <updated>2020-02-27T11:23:06.670Z</updated>
     
     <summary type="html">
     
-      &lt;div class=&quot;note info&quot;&gt;&lt;p&gt;由于最近使用Hexo+GitPage搭建博客 使用Git命令比较多 故将Git使用方法写一篇总结。&lt;/p&gt;&lt;/div&gt;
+      Welcome to my blog,enter password to read
     
     </summary>
     
