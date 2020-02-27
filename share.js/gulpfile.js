@@ -125,22 +125,3 @@ gulp.task('watch', gulp.parallel('css', 'jquery.share.js', 'share.js', 'fonts'),
 });
 
 gulp.task('default', gulp.parallel( 'css', 'jquery.share.js', 'share.js', 'fonts' ));
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>

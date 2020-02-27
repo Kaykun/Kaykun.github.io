@@ -5,7 +5,8 @@
  * @license MIT
  *
  * @example
- * <pre> * socialShare('.share-components');
+ * <pre>
+ * socialShare('.share-components');
  *
  * // or
  *
@@ -23,7 +24,7 @@
     var Object$assign = Object.assign;
 
     var runningInWeChat = /MicroMessenger/i.test(navigator.userAgent);
-    var isMobileScreen = document.documentElement.clientWidth &lt;= 768; var image="(document.images[0]" || 0).src ''; site="getMetaContentByName('site')" getmetacontentbyname('site') document.title; title="getMetaContentByName('title')" getmetacontentbyname('title') description="getMetaContentByName('description')" getmetacontentbyname('description') defaults="{" url: location.href, origin: location.origin, source: site, title: title, description: description, image: image, imageselector: undefined, weibokey: '', wechatqrcodetitle: '微信扫一扫：分享', wechatqrcodehelper: '<p>微信里点“发现”，扫一下</p><p></p><p>二维码便可将本文分享至朋友圈。</p>',
+    var isMobileScreen = document.documentElement.clientWidth <= 768; var image="(document.images[0]" || 0).src ''; site="getMetaContentByName('site')" getmetacontentbyname('site') document.title; title="getMetaContentByName('title')" getmetacontentbyname('title') description="getMetaContentByName('description')" getmetacontentbyname('description') defaults="{" url: location.href, origin: location.origin, source: site, title: title, description: description, image: image, imageselector: undefined, weibokey: '', wechatqrcodetitle: '微信扫一扫：分享', wechatqrcodehelper: '<p>微信里点“发现”，扫一下<p></p><p>二维码便可将本文分享至朋友圈。</p>',
         wechatQrcodeSize: 100,
 
         sites: ['weibo', 'qq', 'wechat', 'douban', 'qzone', 'linkedin', 'facebook', 'twitter', 'google'],
@@ -33,14 +34,14 @@
     };
 
     var templates = {
-        qzone: 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&amp;title=&amp;desc=&amp;summary=&amp;site=&amp;pics=',
-        qq: 'http://connect.qq.com/widget/shareqq/index.html?url=&amp;title=&amp;source=&amp;desc=&amp;pics=&amp;summary=""',
-        weibo: 'https://service.weibo.com/share/share.php?url=&amp;title=&amp;pic=&amp;appkey=',
+        qzone: 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&title=&desc=&summary=&site=&pics=',
+        qq: 'http://connect.qq.com/widget/shareqq/index.html?url=&title=&source=&desc=&pics=&summary=""',
+        weibo: 'https://service.weibo.com/share/share.php?url=&title=&pic=&appkey=',
         wechat: 'javascript:',
-        douban: 'http://shuo.douban.com/!service/share?href=&amp;name=&amp;text=&amp;image=&amp;starid=0&amp;aid=0&amp;style=11',
-        linkedin: 'http://www.linkedin.com/shareArticle?mini=true&amp;ro=true&amp;title=&amp;url=&amp;summary=&amp;source=&amp;armin=armin',
+        douban: 'http://shuo.douban.com/!service/share?href=&name=&text=&image=&starid=0&aid=0&style=11',
+        linkedin: 'http://www.linkedin.com/shareArticle?mini=true&ro=true&title=&url=&summary=&source=&armin=armin',
         facebook: 'https://www.facebook.com/sharer/sharer.php?u=',
-        twitter: 'https://twitter.com/intent/tweet?text=&amp;url=&amp;via=',
+        twitter: 'https://twitter.com/intent/tweet?text=&url=&via=',
         google: 'https://plus.google.com/share?url='
     };
 
@@ -176,7 +177,7 @@
         }
 
         // Remove elements
-        disabled.length &amp;&amp; each(disabled, function (it) {
+        disabled.length && each(disabled, function (it) {
             sites.splice(inArray(it, sites), 1);
         });
 
@@ -257,12 +258,12 @@
      * @param {String} value
      */
     function addClass(elem, value) {
-        if (value &amp;&amp; typeof value === "string") {
+        if (value && typeof value === "string") {
             var classNames = (elem.className + ' ' + value).split(/\s+/);
             var setClass = ' ';
 
             each(classNames, function (className) {
-                if (setClass.indexOf(' ' + className + ' ') &lt; 0) {
+                if (setClass.indexOf(' ' + className + ' ') < 0) {
                     setClass += className + ' ';
                 }
             });
@@ -303,7 +304,7 @@
         name = ' ' + name + ' ';
 
         each(elems, function (elem) {
-            if ((' ' + (elem.className || '') + ' ').indexOf(name) &gt;= 0) {
+            if ((' ' + (elem.className || '') + ' ').indexOf(name) >= 0) {
                 elements.push(elem);
             }
         });
@@ -405,11 +406,11 @@
             }
 
             len = arr.length;
-            i = i ? i &lt; 0 ? Math.max(0, len + i) : i : 0;
+            i = i ? i < 0 ? Math.max(0, len + i) : i : 0;
 
-            for (; i &lt; len; i++) {
+            for (; i < len; i++) {
                 // Skip accessing in sparse arrays
-                if (i in arr &amp;&amp; arr[i] === elem) {
+                if (i in arr && arr[i] === elem) {
                     return i;
                 }
             }
@@ -439,7 +440,7 @@
                 }
             }
         } else {
-            for (var i = 0; i &lt; length; i++) {
+            for (var i = 0; i < length; i++) {
                 if (callback.call(obj[i], obj[i], i) === false) {
                     break;
                 }
@@ -465,28 +466,10 @@
                     [ pre ? 'attachEvent' : add ]
                 (
                     pre + type,
-                    function(){ if ( fn ) if ( i &lt; 6 || ~document.readyState.indexOf( 'm' ) ) fn(), fn = 0 },
+                    function(){ if ( fn ) if ( i < 6 || ~document.readyState.indexOf( 'm' ) ) fn(), fn = 0 },
                     !1
                 )
             })
     }
 })(window, document);
-<!--=--></fe.52cik@gmail.com><script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+</=></fe.52cik@gmail.com>

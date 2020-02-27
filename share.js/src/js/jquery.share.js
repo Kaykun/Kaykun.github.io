@@ -5,7 +5,8 @@
  * @license MIT
  *
  * @example
- * <pre> * $('.share-components').share();
+ * <pre>
+ * $('.share-components').share();
  *
  * // or
  *
@@ -50,16 +51,16 @@
         var $globals = $.extend({}, $defaults, $options);
 
         var $templates = {
-            qzone       : 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&amp;title=&amp;desc=&amp;summary=&amp;site=&amp;pics=',
-            qq          : 'http://connect.qq.com/widget/shareqq/index.html?url=&amp;title=&amp;source=&amp;desc=&amp;pics=',
-            tencent     : 'http://share.v.t.qq.com/index.php?c=share&amp;a=index&amp;title=&amp;url=&amp;pic=',
-            weibo       : 'https://service.weibo.com/share/share.php?url=&amp;title=&amp;pic=&amp;appkey=',
+            qzone       : 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&title=&desc=&summary=&site=&pics=',
+            qq          : 'http://connect.qq.com/widget/shareqq/index.html?url=&title=&source=&desc=&pics=',
+            tencent     : 'http://share.v.t.qq.com/index.php?c=share&a=index&title=&url=&pic=',
+            weibo       : 'https://service.weibo.com/share/share.php?url=&title=&pic=&appkey=',
             wechat      : 'javascript:;',
-            douban      : 'http://shuo.douban.com/!service/share?href=&amp;name=&amp;text=&amp;image=&amp;starid=0&amp;aid=0&amp;style=11',
-            diandian    : 'http://www.diandian.com/share?lo=&amp;ti=&amp;type=link',
-            linkedin    : 'http://www.linkedin.com/shareArticle?mini=true&amp;ro=true&amp;title=&amp;url=&amp;summary=&amp;source=&amp;armin=armin',
-            facebook    : 'https://www.facebook.com/sharer/sharer.php?u=&amp;title=&amp;description=&amp;caption=&amp;link=&amp;picture=',
-            twitter     : 'https://twitter.com/intent/tweet?text=&amp;url=&amp;via=',
+            douban      : 'http://shuo.douban.com/!service/share?href=&name=&text=&image=&starid=0&aid=0&style=11',
+            diandian    : 'http://www.diandian.com/share?lo=&ti=&type=link',
+            linkedin    : 'http://www.linkedin.com/shareArticle?mini=true&ro=true&title=&url=&summary=&source=&armin=armin',
+            facebook    : 'https://www.facebook.com/sharer/sharer.php?u=&title=&description=&caption=&link=&picture=',
+            twitter     : 'https://twitter.com/intent/tweet?text=&url=&via=',
             google      : 'https://plus.google.com/share?url='
         };
 
@@ -147,7 +148,7 @@
 
             $wechat.find('.qrcode').qrcode({render: 'image', size: $data.wechatQrcodeSize, text: $data.url});
 
-            if ($wechat.offset().top &lt; 100) {
+            if ($wechat.offset().top < 100) {
                 $wechat.find('.wechat-qrcode').addClass('bottom');
             }
         }
@@ -160,7 +161,7 @@
          * @return {Array}
          */
         function getSites ($data) {
-            if ($data['mobileSites'].length === 0 &amp;&amp; $data['sites'].length) {
+            if ($data['mobileSites'].length === 0 && $data['sites'].length) {
                 $data['mobileSites'] = $data['sites'];
             };
 
@@ -174,7 +175,7 @@
                 $disabled.push('wechat');
             }
             // Remove elements
-            $disabled.length &amp;&amp; $.each($disabled, function (i, el) {
+            $disabled.length && $.each($disabled, function (i, el) {
                 var removeItemIndex = $.inArray(el, $sites);
                 if (removeItemIndex !== -1) {
                     $sites.splice(removeItemIndex, 1);
@@ -225,22 +226,4 @@
          * @return {boolean}
          */
         function isMobileScreen () {
-            return $(window).width() </i@overtrue.me><script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+            return $(window).width() </i@overtrue.me>
