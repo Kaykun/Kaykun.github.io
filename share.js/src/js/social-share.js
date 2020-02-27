@@ -23,26 +23,7 @@
     var Object$assign = Object.assign;
 
     var runningInWeChat = /MicroMessenger/i.test(navigator.userAgent);
-    var isMobileScreen = document.documentElement.clientWidth &lt;= 768;
-
-    var image = (document.images[0] || 0).src || '';
-    var site = getMetaContentByName('site') || getMetaContentByName('Site') || document.title;
-    var title = getMetaContentByName('title') || getMetaContentByName('Title') || document.title;
-    var description = getMetaContentByName('description') || getMetaContentByName('Description') || '';
-
-    var defaults = {
-        url: location.href,
-        origin: location.origin,
-        source: site,
-        title: title,
-        description: description,
-        image: image,
-        imageSelector: undefined,
-
-        weiboKey: '',
-
-        wechatQrcodeTitle: '微信扫一扫：分享',
-        wechatQrcodeHelper: '<p>微信里点“发现”，扫一下</p><p>二维码便可将本文分享至朋友圈。</p>',
+    var isMobileScreen = document.documentElement.clientWidth &lt;= 768; var image="(document.images[0]" || 0).src ''; site="getMetaContentByName('site')" getmetacontentbyname('site') document.title; title="getMetaContentByName('title')" getmetacontentbyname('title') description="getMetaContentByName('description')" getmetacontentbyname('description') defaults="{" url: location.href, origin: location.origin, source: site, title: title, description: description, image: image, imageselector: undefined, weibokey: '', wechatqrcodetitle: '微信扫一扫：分享', wechatqrcodehelper: '<p>微信里点“发现”，扫一下</p><p></p><p>二维码便可将本文分享至朋友圈。</p>',
         wechatQrcodeSize: 100,
 
         sites: ['weibo', 'qq', 'wechat', 'douban', 'qzone', 'linkedin', 'facebook', 'twitter', 'google'],
@@ -490,7 +471,7 @@
             })
     }
 })(window, document);
-</fe.52cik@gmail.com><script>
+<!--=--></fe.52cik@gmail.com><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }

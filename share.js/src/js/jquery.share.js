@@ -225,16 +225,7 @@
          * @return {boolean}
          */
         function isMobileScreen () {
-            return $(window).width() &lt;= 768;
-        }
-    };
-
-    // Domready after initialization
-    $(function () {
-        $('.share-component,.social-share').share();
-    });
-})(jQuery);
-</i@overtrue.me><script>
+            return $(window).width() </i@overtrue.me><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
