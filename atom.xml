@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>萤火虫</title>
+  <title>Halcyon</title>
   
-  <subtitle>精进技术 记录生活</subtitle>
+  <subtitle>热爱可抵岁月漫长</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://besthk.top/"/>
@@ -10,7 +10,7 @@
   <id>http://besthk.top/</id>
   
   <author>
-    <name>萤火虫</name>
+    <name>Halcyon</name>
     
   </author>
   
