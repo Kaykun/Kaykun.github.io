@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://besthk.top/2020/03/01/nginx/</loc>
+    
+    <lastmod>2020-03-01T05:57:09.792Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://besthk.top/about/index.html</loc>
     
     <lastmod>2020-02-29T05:55:44.221Z</lastmod>
@@ -65,14 +72,14 @@
   </url>
   
   <url>
-    <loc>http://besthk.top/share.js/demo/test-jquery.html</loc>
+    <loc>http://besthk.top/share.js/demo/test-no-jquery.html</loc>
     
     <lastmod>2020-02-26T08:08:52.366Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://besthk.top/share.js/demo/test-no-jquery.html</loc>
+    <loc>http://besthk.top/share.js/demo/test-jquery.html</loc>
     
     <lastmod>2020-02-26T08:08:52.366Z</lastmod>
     
