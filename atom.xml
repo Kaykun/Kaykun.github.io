@@ -69,7 +69,7 @@
     
     <summary type="html">
     
-      &lt;!-- build time:Tue Mar 03 2020 17:30:45 GMT+0800 (GMT+08:00) --&gt;&lt;img src=&quot;/2020/03/01/nginx/Nginxico.jpg&quot; title=&quot;Nginx&quot;&gt;
+      &lt;!-- build time:Tue Mar 03 2020 17:32:44 GMT+0800 (GMT+08:00) --&gt;&lt;img src=&quot;/2020/03/01/nginx/Nginxico.jpg&quot; title=&quot;Nginx&quot;&gt;
     
     </summary>
     
@@ -90,7 +90,7 @@
     
     <summary type="html">
     
-      &lt;!-- build time:Tue Mar 03 2020 17:30:45 GMT+0800 (GMT+08:00) --&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;为了学习和使用Linux，多数人选择了使用虚拟机的方式来安装Linux。&lt;/p&gt;&lt;/div&gt;虚拟机的选择可以参考：&lt;a href=&quot;https://www.10besty.com/best-virtual-machine-applications/&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt; 2020年最好的虚拟机测评推荐&lt;/a&gt;&lt;p&gt;​我之前使用的&lt;a href=&quot;https://store.vmware.com/store?Action=home&amp;Env=BASE&amp;Locale=zh_CN&amp;SiteID=vmware&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt;VMware Workstation Pro&lt;/a&gt;，但是因为体积大需要激活码注册，所以我现在现阶段选择使用的是Virtualbox，轻量级并且免费，功能方面成熟也齐全。VirtualBox提供了多种网络连接方式，不同的网络连接方式决定了虚拟机是否可以联网，以及是否可以和宿主机互相ping通。本文将主要介绍常用的桥接、NAT和host-only三种网络连接方式的区别，以减少大家在使用中的困扰。&lt;/p&gt;
+      &lt;!-- build time:Tue Mar 03 2020 17:32:44 GMT+0800 (GMT+08:00) --&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;为了学习和使用Linux，多数人选择了使用虚拟机的方式来安装Linux。&lt;/p&gt;&lt;/div&gt;虚拟机的选择可以参考：&lt;a href=&quot;https://www.10besty.com/best-virtual-machine-applications/&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt; 2020年最好的虚拟机测评推荐&lt;/a&gt;&lt;p&gt;​我之前使用的&lt;a href=&quot;https://store.vmware.com/store?Action=home&amp;Env=BASE&amp;Locale=zh_CN&amp;SiteID=vmware&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt;VMware Workstation Pro&lt;/a&gt;，但是因为体积大需要激活码注册，所以我现在现阶段选择使用的是Virtualbox，轻量级并且免费，功能方面成熟也齐全。VirtualBox提供了多种网络连接方式，不同的网络连接方式决定了虚拟机是否可以联网，以及是否可以和宿主机互相ping通。本文将主要介绍常用的桥接、NAT和host-only三种网络连接方式的区别，以减少大家在使用中的困扰。&lt;/p&gt;
     
     </summary>
     
@@ -111,7 +111,7 @@
     
     <summary type="html">
     
-      &lt;!-- build time:Tue Mar 03 2020 17:30:45 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;h4 id=&quot;CentOS-8-的新特性&quot;&gt;&lt;a href=&quot;#CentOS-8-的新特性&quot; class=&quot;headerlink&quot; title=&quot;CentOS 8 的新特性&quot;&gt;&lt;/a&gt;CentOS 8 的新特性&lt;/h4&gt;&lt;/blockquote&gt;&lt;ul&gt;&lt;li&gt;DNF 成为了默认的软件包管理器，同时 yum 仍然是可用的&lt;/li&gt;&lt;li&gt;使用网络管理器（&lt;code&gt;nmcli&lt;/code&gt; 和 &lt;code&gt;nmtui&lt;/code&gt;）进行网络配置，移除了网络脚本&lt;/li&gt;&lt;li&gt;使用 Podman 进行容器管理&lt;/li&gt;&lt;li&gt;引入了两个新的包仓库：BaseOS 和 AppStream&lt;/li&gt;&lt;li&gt;使用 Cockpit 作为默认的系统管理工具&lt;/li&gt;&lt;li&gt;默认使用 Wayland 作为显示服务器&lt;/li&gt;&lt;li&gt;&lt;code&gt;iptables&lt;/code&gt; 将被 &lt;code&gt;nftables&lt;/code&gt; 取代&lt;/li&gt;&lt;li&gt;使用 Linux 内核 4.18&lt;/li&gt;&lt;li&gt;提供 PHP 7.2、Python 3.6、Ansible 2.8、VIM 8.0 和 Squid 4&lt;/li&gt;&lt;/ul&gt;
+      &lt;!-- build time:Tue Mar 03 2020 17:32:43 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;h4 id=&quot;CentOS-8-的新特性&quot;&gt;&lt;a href=&quot;#CentOS-8-的新特性&quot; class=&quot;headerlink&quot; title=&quot;CentOS 8 的新特性&quot;&gt;&lt;/a&gt;CentOS 8 的新特性&lt;/h4&gt;&lt;/blockquote&gt;&lt;ul&gt;&lt;li&gt;DNF 成为了默认的软件包管理器，同时 yum 仍然是可用的&lt;/li&gt;&lt;li&gt;使用网络管理器（&lt;code&gt;nmcli&lt;/code&gt; 和 &lt;code&gt;nmtui&lt;/code&gt;）进行网络配置，移除了网络脚本&lt;/li&gt;&lt;li&gt;使用 Podman 进行容器管理&lt;/li&gt;&lt;li&gt;引入了两个新的包仓库：BaseOS 和 AppStream&lt;/li&gt;&lt;li&gt;使用 Cockpit 作为默认的系统管理工具&lt;/li&gt;&lt;li&gt;默认使用 Wayland 作为显示服务器&lt;/li&gt;&lt;li&gt;&lt;code&gt;iptables&lt;/code&gt; 将被 &lt;code&gt;nftables&lt;/code&gt; 取代&lt;/li&gt;&lt;li&gt;使用 Linux 内核 4.18&lt;/li&gt;&lt;li&gt;提供 PHP 7.2、Python 3.6、Ansible 2.8、VIM 8.0 和 Squid 4&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -132,7 +132,7 @@
     
     <summary type="html">
     
-      &lt;!-- build time:Tue Mar 03 2020 17:30:45 GMT+0800 (GMT+08:00) --&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;由于最近使用Hexo+GitPage搭建博客 使用Git命令比较多 故将Git使用方法写一篇总结。&lt;/p&gt;&lt;/div&gt;
+      &lt;!-- build time:Tue Mar 03 2020 17:32:43 GMT+0800 (GMT+08:00) --&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;由于最近使用Hexo+GitPage搭建博客 使用Git命令比较多 故将Git使用方法写一篇总结。&lt;/p&gt;&lt;/div&gt;
     
     </summary>
     
@@ -153,7 +153,7 @@
     
     <summary type="html">
     
-      &lt;!-- build time:Tue Mar 03 2020 17:30:45 GMT+0800 (GMT+08:00) --&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;写Mrakdown费事？Typora让你像写Word一样行云流水，所见即所得。&lt;/p&gt;&lt;/div&gt;
+      &lt;!-- build time:Tue Mar 03 2020 17:32:44 GMT+0800 (GMT+08:00) --&gt;&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;写Mrakdown费事？Typora让你像写Word一样行云流水，所见即所得。&lt;/p&gt;&lt;/div&gt;
     
     </summary>
     
@@ -170,11 +170,11 @@
     <link href="http://besthk.top/2020/02/09/easycode/"/>
     <id>http://besthk.top/2020/02/09/easycode/</id>
     <published>2020-02-09T10:28:23.000Z</published>
-    <updated>2020-03-03T09:30:14.539Z</updated>
+    <updated>2020-03-03T09:32:26.867Z</updated>
     
     <summary type="html">
     
-      &lt;!-- build time:Tue Mar 03 2020 17:30:45 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;Easycode是IDEA的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;&lt;h2 id=&quot;1、安装（Easy-Code&quot;&gt;&lt;a href=&quot;#1、安装（Easy-Code&quot; class=&quot;headerlink&quot; title=&quot;1、安装（Easy Code)&quot;&gt;&lt;/a&gt;1、安装（Easy Code)&lt;/h2&gt;&lt;img src=&quot;/2020/02/09/easycode/Easy_Code.jpg&quot; title=&quot;Install Easy_Code&quot;&gt;
+      &lt;!-- build time:Tue Mar 03 2020 17:32:44 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;Easycode是IDEA的一个插件，可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。&lt;/p&gt;&lt;h2 id=&quot;1、安装（Easy-Code&quot;&gt;&lt;a href=&quot;#1、安装（Easy-Code&quot; class=&quot;headerlink&quot; title=&quot;1、安装（Easy Code)&quot;&gt;&lt;/a&gt;1、安装（Easy Code)&lt;/h2&gt;&lt;img src=&quot;/2020/02/09/easycode/Easy_Code.jpg&quot; title=&quot;Install Easy_Code&quot;&gt;
     
     </summary>
     
